@@ -1,3 +1,11 @@
+ _ _                      _             _                         _         
+| (_)_ __  _   ___  _____| |_ _   _  __| |_   _ ___  ___  ___ ___(_) ___   _ __  ___   
+| | | '_ \| | | \ \/ / __| __| | | |/ _` | | | / __|/ _ \/ __/ __| |/ _ \ | '_ \/ __|  
+| | | | | | |_| |>  <\__ \ |_| |_| | (_| | |_| \__ \  __/\__ \__ \ | (_) || | | \__ \  
+|_|_|_| |_|\__,_/_/\_\___/\__|\__,_|\__,_|\__, |___/\___||___/___/_|\___/ |_| |_|___/  
+                                          |___/                             
+
+
 # linuxstudysessions
 Study notes for my Linux Essentials certification journey. Guide follows LPI Essentials Study Guide. See Wiki for important links. 
 
@@ -134,6 +142,11 @@ Weight: 2
     - `dpkg` (DEB Packages)
     - `apt-get`
     - `apt`
+    - Searching repos
+        - `apt-cache search package_name`
+            - `apt-cache` used to search for pkgs and list info about available pkgs
+    - `apt search package_name`
+
 - Red Hat, Fedora, CentOS
     - `rpm` (RPM packages)
     - `yum`
