@@ -50,7 +50,8 @@ Study notes for my Linux Essentials certification journey. Guide follows LPI Ess
 ### SUSE
 - Known for YaST config tool: allows admins to install and config software and hardware, set up servers and networks
 - Commercial ed.: SUSE Linux Enterprise Server 
-    - Both server and desktop enviro, is suitable for enterprise and production deployment 
+    - Comes as both a server and desktop enviro
+    - Is suitable for enterprise and production deployment 
 - openSUSE allows for devs to futher test and develp the system, is free
 
 ### QubesOS  
