@@ -131,10 +131,10 @@ Weight: 2
 #### package manager
 - Package repo with vast collection of apps available to install
 - Debian, Ubuntu, Mint
-    - 'dpkg' (DEB Packages)
-    - 'apt-get'
-    - 'apt'
+    - `dpkg` (DEB Packages)
+    - `apt-get`
+    - `apt`
 - Red Hat, Fedora, CentOS
-    - 'rpm' (RPM packages)
-    - 'yum'
-    - 'dnf'
+    - `rpm` (RPM packages)
+    - `yum`
+    - `dnf`
