@@ -3,9 +3,9 @@ Study sessions for my Linux Essentials certification journey.
 
 Maya's Notes:
 
-wsl -d kali-linux/
-spiderfoot -l 127.0.0.1:5001/
-kex/
+wsl -d kali-linux  
+spiderfoot -l 127.0.0.1:5001  
+kex  
 kex --win --stop
 
 LINUX GENERAL  
@@ -13,30 +13,30 @@ LINUX GENERAL
 
 
 
-Debian
-    :Package: dpkg
-    :Considered more advanced than Ubuntu
-    :More stable than Ubuntu
+Debian  
+    - Package: dpkg  
+    :Considered more advanced than Ubuntu  
+    :More stable than Ubuntu  
 
-Ubuntu
-    Mission: easy to use desktop 
-             cut cost of pro services 
-    Recommended for beginners 
-    Less stable than Debian
+Ubuntu  
+    Mission: easy to use desktop  
+             cut cost of pro services  
+    Recommended for beginners  
+    Less stable than Debian  
 
-Red Hat 
-    Aquired by IBM in 2019
-    Started in 1994
-    Reliable enterprise solution
-    Comes with software aiming to ease Linux use in pro server evironments
-    Some components fee based
-    CentOS uses source code of Red Hat & is free but unsupported
-    RH & Centos optimized for server environments
-Fedora 
-    Aimed at desktop computers 
-    Progressive, aggressive adoption of new tech
-    Test bed for RHEL 
-    All RH bases use package: rpm
+Red Hat  
+    Aquired by IBM in 2019  
+    Started in 1994  
+    Reliable enterprise solution  
+    Comes with software aiming to ease Linux use in pro server evironments  
+    Some components fee based  
+    CentOS uses source code of Red Hat & is free but unsupported  
+    RH & Centos optimized for server environments  
+Fedora  
+    Aimed at desktop computers  
+    Progressive, aggressive adoption of new tech  
+    Test bed for RHEL  
+    All RH bases use package: rpm  
 
 SUSE
     Known for YaST config tool: allows admins to install and config software and hardware, set up servers and networks
