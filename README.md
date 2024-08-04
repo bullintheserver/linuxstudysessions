@@ -20,23 +20,24 @@ Debian
 
 Ubuntu  
 + Mission: easy to use desktop  
-    Cut cost of pro services  
++ + Cut cost of pro services  
 + Recommended for beginners  
 + Less stable than Debian  
 
 Red Hat  
-    Aquired by IBM in 2019  
-    Started in 1994  
-    Reliable enterprise solution  
-    Comes with software aiming to ease Linux use in pro server evironments  
-    Some components fee based  
-    CentOS uses source code of Red Hat & is free but unsupported  
-    RH & Centos optimized for server environments  
++ Aquired by IBM in 2019  
++ Started in 1994  
++ Reliable enterprise solution  
++ Comes with software aiming to ease Linux use in pro server evironments  
++ Some components fee based  
++ CentOS uses source code of Red Hat & is free but unsupported  
++ RH & Centos optimized for server environments  
+
 Fedora  
-    Aimed at desktop computers  
-    Progressive, aggressive adoption of new tech  
-    Test bed for RHEL  
-    All RH bases use package: rpm  
++ Aimed at desktop computers  
++ Progressive, aggressive adoption of new tech  
++ Test bed for RHEL  
++ All RH bases use package: rpm  
 
 SUSE
     Known for YaST config tool: allows admins to install and config software and hardware, set up servers and networks
