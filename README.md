@@ -14,9 +14,9 @@ LINUX GENERAL
 ---
 
 Debian  
-    Package: dpkg  
-    Considered more advanced than Ubuntu  
-    More stable than Ubuntu  
++ Package: dpkg  
++ Considered more advanced than Ubuntu  
++ More stable than Ubuntu  
 
 Ubuntu  
     Mission: easy to use desktop  
