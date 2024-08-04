@@ -1,7 +1,7 @@
 # linuxstudysessions
 Study sessions for my Linux Essentials certification journey.
 
-Maya's Notes:
+---
 
 wsl -d kali-linux  
 spiderfoot -l 127.0.0.1:5001  
@@ -13,10 +13,10 @@ LINUX GENERAL
 
 
 
-Debian  
-    - Package: dpkg  
-    :Considered more advanced than Ubuntu  
-    :More stable than Ubuntu  
++ Debian  
+    Package: dpkg  
+    Considered more advanced than Ubuntu  
+    More stable than Ubuntu  
 
 Ubuntu  
     Mission: easy to use desktop  
