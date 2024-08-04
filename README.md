@@ -11,16 +11,16 @@ kex --win --stop
 LINUX GENERAL  
     Based on unix by bell labs
 
+---
 
-
-+ Debian  
+Debian  
     Package: dpkg  
     Considered more advanced than Ubuntu  
     More stable than Ubuntu  
 
 Ubuntu  
     Mission: easy to use desktop  
-             cut cost of pro services  
+        cut cost of pro services  
     Recommended for beginners  
     Less stable than Debian  
 
