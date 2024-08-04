@@ -1,7 +1,9 @@
 # linuxstudysessions
-Study notes for my Linux Essentials certification journey.
+Study notes for my Linux Essentials certification journey. Guide follows LPI Essentials Study Guide. See Wiki for important links. 
 
 ---
+
+# 1.1
 
 ## LINUX GENERAL  
 - Based on unix by bell labs
@@ -57,6 +59,15 @@ Study notes for my Linux Essentials certification journey.
 ### Kali  
 - Pen-testing 
 
+### CentOS
+- Among most suitable for business
+    - As well as Ubuntu LTS
+        - Better support
+    - Stable vers of Debian GNU/Linux also often used for enterprise
+- Incorporates all Red Hat products
+- Free to use
+
+
 ## EMBEDDED SYSTEMS  
 
 - Linux > proprietary: cross vendor platform compatibility, development, support, and no license fees.  
@@ -69,13 +80,41 @@ Study notes for my Linux Essentials certification journey.
 - Freely available in open source as AOSP, Android Open Source Projects  
 
 ### Raspian  
-- RaspberryPi includes a set of GPIO (general purpose input output) pins which can be used to attach electronic devices and extension boards  
-- Used for industrial prototyping when developing embedded systems  
-- Uses ARM processors  
-- OS starts from an SD memory card  
+- RaspberryPi
+    - GPIO (general purpose input output) pins
+        - Used to attach electronic devices and extension boards  
+    - Used for industrial prototyping when developing embedded systems  
+    - Uses ARM processors  
+    - OS starts from an SD memory card  
+    - Compact
+    - Low cost
+    - Web traffic handling 
+    - Can function as a server or firewall
 - Prominent distro is Raspbian based on Debian  
 
 ### Linux & Cloud  
 - As of 2017, Linux runs 90% of public cloud workload
 - Linux usually offered as part of IaaS 
+- Benefits of cloud computing
+    - Flexibility
+    - Easy recovery
+    - Low use cost
+    - Easy implementation
+    - Easy scaling
+    - Fast backup and recovery
+    - Reduced OpEx
+    - Subscription based model
+- Amazon & Google Cloud
+    - Ubuntu
+    - CentOS
+    - RHEL (Red Hat Enterprise Linux)
+- Amazon
+    - Amazon Linux
+    - Kali Linux
+- Google Cloud
+    - FreeBSD
+    - Windows Servers
+
+
+# 1.2
 
