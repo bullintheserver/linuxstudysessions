@@ -8,10 +8,10 @@ spiderfoot -l 127.0.0.1:5001
 kex  
 kex --win --stop
 
+---
+
 LINUX GENERAL  
     Based on unix by bell labs
-
----
 
 Debian  
 + Package: dpkg  
@@ -19,10 +19,10 @@ Debian
 + More stable than Ubuntu  
 
 Ubuntu  
-    Mission: easy to use desktop  
-        cut cost of pro services  
-    Recommended for beginners  
-    Less stable than Debian  
++ Mission: easy to use desktop  
+++ cut cost of pro services  
++ Recommended for beginners  
++ Less stable than Debian  
 
 Red Hat  
     Aquired by IBM in 2019  
