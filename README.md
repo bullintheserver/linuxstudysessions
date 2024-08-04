@@ -9,7 +9,7 @@ kex
 kex --win --stop
 
 LINUX GENERAL 
-    :Based on unix by bell labs
+:Based on unix by bell labs
 
 
 
