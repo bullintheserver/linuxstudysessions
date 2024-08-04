@@ -9,14 +9,14 @@ kex
 kex --win --stop
 
 LINUX GENERAL 
-    bBased on unix by bell labs
+    :Based on unix by bell labs
 
 
 
 Debian
-    Package: dpkg
-    Considered more advanced than Ubuntu
-    More stable than Ubuntu
+    :Package: dpkg
+    :Considered more advanced than Ubuntu
+    :More stable than Ubuntu
 
 Ubuntu
     Mission: easy to use desktop 
