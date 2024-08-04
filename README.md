@@ -3,13 +3,13 @@ Study sessions for my Linux Essentials certification journey.
 
 Maya's Notes:
 
-wsl -d kali-linux
-spiderfoot -l 127.0.0.1:5001
-kex
+wsl -d kali-linux/
+spiderfoot -l 127.0.0.1:5001/
+kex/
 kex --win --stop
 
-LINUX GENERAL 
-:Based on unix by bell labs
+LINUX GENERAL  
+    Based on unix by bell labs
 
 
 
