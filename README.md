@@ -20,7 +20,7 @@ Debian
 
 Ubuntu  
 + Mission: easy to use desktop  
-++ cut cost of pro services  
+    Cut cost of pro services  
 + Recommended for beginners  
 + Less stable than Debian  
 
