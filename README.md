@@ -12,6 +12,19 @@ kex --win --stop
 
 ## LINUX GENERAL  
 + Based on unix by bell labs
++ Common enviros/platforms: smartphone, desktop, server.
+- Distro considerations:
+    - Cost
+    - Performance
+    - Scalability
+    - Stability 
++ + Hardware demand
++ AndroidOS can run on:
++ + Smartphones
++ + Smart TVs
++ + Tablets
++ + Smartwatches
++ + Android Auto
 
 ### Debian  
 + Package: dpkg  
@@ -60,14 +73,14 @@ Most popular embedded software projects are:
 
 ### ANDROID  
 Base is modified version of Linux kernel with additional open source software  
-Freely available in open source as AOSP, Android Open Source projects  
+Freely available in open source as AOSP, Android Open Source Projects  
 
 ### RASPIAN  
 RaspberryPi includes a set of GPIO (general purpose input output) pins which can be used to attach electronic devices and extension boards  
 Used for industrial prototyping when developing embedded systems  
 Uses ARM processors  
 OS starts from an SD memory card  
-Prominent ditro is Raspbian based on Debian  
+Prominent distro is Raspbian based on Debian  
 
 ### LINUX AND CLOUD  
 As of 2017, Linux runs 90% of public cloud workload
