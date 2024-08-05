@@ -191,3 +191,31 @@ Install and removal of packages via terminal:
             - First popular web browser to adopt open source model
 
 #### Multimedia
+- Popular FLOSS applications
+    - Blender
+        - 3d animations and objects rendering
+    - GIMP
+        - Full-featured image editor
+        - Comparable with Adobe Photoshop
+    - Inkscape
+        - Vector graphics editor
+        - Comparable to Corel Draw or Adobe Illustrator
+        - Default open standard format: SVG
+    - Audacity
+        - Audio editor
+        - Limited compared to GarageBand or ProTools
+    - ImageMagick
+        - Command line tool
+            - Converts / edits image file types
+            - Can create PDFs from image files
+    - Playback applications
+        - Video playback
+            - VLC
+            - smplayer
+        - Audio playback
+            - Audacious
+            - Banshee
+            - Amarok
+                - Can also manage local sound files
+
+#### Server programs
