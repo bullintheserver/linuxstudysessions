@@ -10,7 +10,7 @@ Linux Evolution and Popular Operating Systems
 Weight: 2
 
 
-### LINUX GENERAL  
+### Linux general  
 - Based on unix by bell labs
 - Common enviros/platforms: smartphone, desktop, server.
 - Distro considerations:
@@ -74,7 +74,7 @@ Weight: 2
 - Free to use
 
 
-### EMBEDDED SYSTEMS  
+### Embedded systems  
 
 - Linux > proprietary: cross vendor platform compatibility, development, support, and no license fees.  
 - Most popular embedded software projects are:  
@@ -133,27 +133,31 @@ Install and removal of packages via terminal:
     - Followed by entering user password
     - This gives certain `root` user permissions without being in `root` account 
 
-#### package manager
+#### Package manager
 - Package repo with vast collection of apps available to install
-- Debian, Ubuntu, Mint
+- Debian, Ubuntu, Mint install | uninstall commands
     - `dpkg` (DEB Packages)
     - `apt-get`
     - `apt`
+    - `remove`
     - Searching repos
         - `apt-cache search package_name`
             - `apt-cache` used to search for pkgs and list info about available pkgs
     - `apt search package_name`
-- Full string example
+- Full download and install string example
     - `sudo apt-get install package_name`  
     - `sudo apt install package_name`  
 
-- Red Hat, Fedora, CentOS
+- Red Hat, Fedora, CentOS install | uninstall commands
     - `rpm` (RPM packages)
     - `yum`
     - `dnf`
+    - `remove`
     - Searching repos
         - `yum search package_name`
         - `dnf search package_name`
-- Full string example
-    - `sudo yum intall packag_name`
+- Full download and install string example
+    - `sudo yum install package_name`
     - `sudo dnf install package_name`
+
+#### Office applications
