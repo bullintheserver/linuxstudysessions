@@ -2,7 +2,7 @@
 Study notes for my Linux Essentials certification journey. Guide follows LPI Essentials Study Guide. See Wiki for important links. 
 
 ---
-# TOPIC 1
+# Topic 1
 The Linux Community and a Career in Open Source  
 
 ## 1.1
@@ -161,3 +161,16 @@ Install and removal of packages via terminal:
     - `sudo dnf install package_name`
 
 #### Office applications
+Most popular:  
+    - Apache OpenOffice
+        - Apache License 2.0
+            - Cannot incorporate improvements made by LibreOffice
+    - LibreOffice
+        - LGPLv3 License
+            - Can incorporate improvements made by Apache OpenOffice
+            - Reason most distros adopt LibreOffice over OpenOffice
+- Both compatible with Microsoft Office
+- *Open Document Format* aka *ODF*
+    - Preferred
+    - Fully open and ISO standardized file format
+    - Ensures docs are cross platform, cross application
