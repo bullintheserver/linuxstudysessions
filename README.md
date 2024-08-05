@@ -219,3 +219,74 @@ Install and removal of packages via terminal:
                 - Can also manage local sound files
 
 #### Server programs
+- Web page servers
+    - Web browser: client
+        - Common script: JavaScript
+    - Remote computer: server
+        - Common script: PHP
+        - Can request info from other servers
+            - Such as a database server
+    - most deploy open source server programs
+    - Known as an *HTTP server*
+        - Collects and sends requested data back to browser
+        - Arranges content defined by HTML document
+    - Most popular
+        - Apache
+        - Nginx
+        - lighttpd
+- Database servers
+    - Database
+        - Orgnaized set of information
+    - Stores contents in formatted fashion
+    - Most common type
+        - Relational database
+            - Data organized in predefined tables
+            - Most popular open source
+                - MariaDB
+                    - Originated from MySQL
+                - PostgreSQL
+
+#### Data sharing
+- *Network File System* aka *NFS*
+    - NSF protocol
+    - Standard way to share file systems in Unix/Linux-only networks
+    - Shares directories for r/w (read/write) purposes
+    - Can share entire directory tree to boot from
+        - Used by *thin clients* in large networks 
+            - Avoids individual OS maintenance
+- *Samba*
+    - Compatible with all major OSs
+        - As of version 4
+    - Can share files and printers
+    - Used in mixed OS network settings
+- *Domain controller*
+    - Central server
+    - Authorizes logins on workstations 
+    - Manages access to local and remote resources 
+    - Domain controller service provided by Microsoft's *Active Directory*
+    - Workstations
+        - Can associate with DC using
+            - Samba
+            - Auth subsystem *SSSD* 
+- Cloud computing
+    - ownCloud
+        - More focused on
+            - File sharing
+            - Thrid-party integration
+        - Supports plugins
+    - Nextcloud
+        - *Fork* (aka spin-off) of ownCloud
+        - All features of ownCloud
+            - Plus private audio/video conferencing
+        - Supports plugins
+    - Both
+        - Offer paid version
+            - Extra features
+            - Extended support
+        - Can be installed on private server
+        - Free of charge
+        - Must be installed on previously configured web server
+            - Such as Apache
+            - Because services depend on HTTP, and are written in PHP
+        - Make sure to enable HTTPS
+            - Encrypts all connections to your cloud
