@@ -161,7 +161,7 @@ Install and removal of packages via terminal:
     - `sudo dnf install package_name`
 
 #### Office applications
-Most popular:  
+- Most popular  
     - Apache OpenOffice
         - Apache License 2.0
             - Cannot incorporate improvements made by LibreOffice
