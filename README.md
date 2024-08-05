@@ -174,3 +174,20 @@ Install and removal of packages via terminal:
     - Preferred
     - Fully open and ISO standardized file format
     - Ensures docs are cross platform, cross application
+
+#### Web browsers
+- Main web browsers in Linux enviro
+    - Google Chrome
+        - Maintained by Google
+        - Based on open source browser *Chromium*
+    - Mozilla Firefox
+        - Maintained by Mozilla
+            - Non-profit org
+            - Foundation deeply involved with open standards development underlying the modern web
+            - Develops other apps 
+                - E-mail client *Thunderbird* 
+                    - Offers extra features and integrates with other desktop apps
+        - Origins linked to Netscape
+            - First popular web browser to adopt open source model
+
+#### Multimedia
