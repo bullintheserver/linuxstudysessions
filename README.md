@@ -332,11 +332,13 @@ Install and removal of packages via terminal:
         - Development is easier and faster
     - Con
         - Programs tend to be slower than compiled programs 
+    - Aka *scripting languages*
 
 - JavaScript
     - Mostly used in web pages
     - Used to create complex apps for web, servers, and mobile
 - C
+    - Compiled language
     - Closely related with OSs
         - Particularly Unix
     - Used to write any kind of program to almost any device
@@ -346,6 +348,9 @@ Install and removal of packages via terminal:
         - Can be compiled to run in different platforms and OSs with little or no modification
         - After compiling program will only run on targeted system
 - Java
+    - Compiled language
+        - Converted to *bytecode*
+        - Executed in *Java Virtual Machine* software environment
     - Main aspects
         - Portability
         - Same program can be executed in different OSs
@@ -369,12 +374,12 @@ Install and removal of packages via terminal:
     - Used to generate dynamic content from various sources such as databases
     - LAMP
         - Popular server solution for running web servers
-    
-
-        - Linux OS
-        - Apache HTTP server
-        - MySQL or Maria DB database
-        - PHP programming
+        - Made up of
+            - Linux OS
+            - Apache HTTP server
+            - MySQL or Maria DB database
+            - PHP programming
+        - All of the programming languages described can also be used to implement these applications
 
 
 
