@@ -128,6 +128,11 @@ Weight: 2
 
 ### Applications & Software
 
+Install and removal of packages via terminal:  
+ - Ordinary users must prepend with `sudo`
+    - Followed by entering user password
+    - This gives certain `root` user permissions without being in `root` account 
+
 #### package manager
 - Package repo with vast collection of apps available to install
 - Debian, Ubuntu, Mint
@@ -138,8 +143,17 @@ Weight: 2
         - `apt-cache search package_name`
             - `apt-cache` used to search for pkgs and list info about available pkgs
     - `apt search package_name`
+- Full string example
+    - `sudo apt-get install package_name`  
+    - `sudo apt install package_name`  
 
 - Red Hat, Fedora, CentOS
     - `rpm` (RPM packages)
     - `yum`
     - `dnf`
+    - Searching repos
+        - `yum search package_name`
+        - `dnf search package_name`
+- Full string example
+    - `sudo yum intall packag_name`
+    - `sudo dnf install package_name`
