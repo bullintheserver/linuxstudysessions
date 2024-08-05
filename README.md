@@ -199,7 +199,7 @@ Install and removal of packages via terminal:
         - Comparable with Adobe Photoshop
     - Inkscape
         - Vector graphics editor
-        - Comparable to Corel Draw or Adobe Illustrator
+        - Comparable to Corel Draw or Adobe Illustrator08_05_2024_10_53_00
         - Default open standard format: SVG
     - Audacity
         - Audio editor
@@ -290,3 +290,23 @@ Install and removal of packages via terminal:
             - Because services depend on HTTP, and are written in PHP
         - Make sure to enable HTTPS
             - Encrypts all connections to your cloud
+
+#### Network administration
+- Netowrk configuration
+    - Set of programs running on router
+        - Responsible for setting up and checking network availability
+    - *Dynamic Host Configuration Protocol* (*DHCP*)
+        - Responsible for assigning IP addresses to hosts
+        - ISP's DHCP server provides external network address
+        - Local DHCP server provides internal network address
+        - Most routers come with pre-configured DHCP server
+    - *Domain Name System* (*DNS*)
+        - Translates IP addresses into human readable URLs, aka *domains*
+            - *Uniform Resource Locators*
+        - IP address of DNS server is provided by ISP's DHCP server
+    - Both DHCP and DNS settings can be modified via web interface
+    - Google DNS & OpenDNS
+        - Sometimes faster
+        - Provides extra features
+
+#### Programming languages
