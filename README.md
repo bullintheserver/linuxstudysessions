@@ -384,7 +384,7 @@ Install and removal of packages via terminal:
             - PHP programming
         - All of the programming languages described can also be used to implement these applications
 
-### 1.3
+## 1.3
 Open source software and licensing  
 Weight: 1  
 
@@ -456,3 +456,114 @@ Weight: 1
                    - 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
 #### Creative commons 
+- CC BY (Attribution)
+    - Anyone can edit and distribute the work, must name original author
+- CC BY -SA (Attribution-ShareAlike)
+    - Like CC BY, except modified work may only be distributed under the same license
+- CC BY - ND (Attribution-NoDerivatives)
+    - Like CC BY, except only reproduced unmodified
+- CC BY -NC (Attribution-NonCommercial)
+    - May be edited and distributed by naming the author, but only under non-commercial conditions
+- CC BY -NC -SA (Attribution-NonCommercial-ShareAlike)
+    - BY -NC but shared under same conditions
+- CC BY -NC -ND (Attribution-NonCommercial-NoDerivatives)
+    - Attribution, non-commercial conditions, and unchanged
+
+#### Business models in open source
+- *Crowdfunding* 
+    - Collection of money donations 
+    - Donors receive pre-defined bonus in event of success
+- *Dual licensing*
+    - Free software is offered in parallel under more restrictive or proprietary license
+    - Guarantees more xtensive features 
+    - Business editions
+- *Professional services*
+    - Consulting, maintenance, helpdesk, hosting, support
+- *Peripheral monetization*
+    - Merchandising, certificates, etc.
+    - Proprietary extensions development
+- *Software as a Service (SaaS)*
+    - Customer pays for use according to adjustable parameters
+
+## 1.4
+ICT Skills and Working in Linux  
+Weight: 2  
+
+#### Desktop environments 
+- Modularity
+    - Different parts of the Linux system are develped by different projects and developers
+    - Several options for desktop enviros 
+    - Can install multiple enviros and pick the most useful for the user
+- Two major desktop enviros in Linux world
+    - *Gnome*
+        - Streamlined, clean applications
+        - Based on GTK toolkit
+            - Written in C
+        - Uses *Gnome Terminal* emulator
+    - *KDE*
+        - Larger selection of apps
+        - Highly customizable configuration
+        - Based on Qt library
+            - Written in C++
+        - Uses *Konsole* terminal emulator
+- Many terminals available 
+    - *Xterm* another choice
+
+#### Presentations and projects
+- LibreOffice Impress
+    - part of LibreOffice suite
+    - Open source replacement for Microsoft Office
+    - Can open PTT and PPTX Powerpoint native files
+    - Use ODP Impress format 
+        - Part of Open Document Format
+            - International standard file format 
+- Beamer
+    - LaTeX document class for making slides and presentations 
+        - LaTeX is a markup typesetting system
+        - De facto standard for scientific documents
+        - Handles complex math symbols well
+- Reveal.js
+    - NPM package (NPM is default NodeJS package manager)
+    - Create presentations by using the web
+    - Uses HTML, CSS, JavaScript 
+    - Interactive presentations 
+    - Adapts well on any resolution and screen size
+- Other Microsoft Project replacements
+    - GanttProject
+    - ProjectLibre
+
+#### Industry uses of Linux
+- Estimated 68% of web servers are Unix
+    - Largest portion of those are Linux
+    - Allows for lower cost and greater scalability
+    - Many Linux sytems run in cloud as IaaS, PaaS, or SaaS
+- IaaS (Infrastructure as a Service)
+    - Pay as you go format
+    - Process known as *Virtualization*
+    - Shares resources of large server/host machine
+        - Pieced into smaller virtual machines (VMs)/operating systems
+        - VMs run as guests on host machine and access is granted
+        - *Hypervisor* 
+            - Software responsible for segregation and management of resources for guest OSs
+- Open source hypervisors
+    - Xen
+        - Oldest
+    - KVM
+        - Development sponsored by RedHat
+        - Most prominent
+    - VirtualBox
+        - Belongs to Oracle since its acquisition of Sun Microsystems
+        - Usually used by end users due to ease of use
+- PaaS (Platform as a Service)
+    - Users access a platform where they build, deploy, run their app 
+    - Eases burden of system admin and OS updates
+    - Heroku common PaaS example
+        - Program code runs without taking care of containers or VMs
+- SaaS (Software as a Service)
+    - Pay for software without worrying about underlying system
+    - i.e. Dropbox, Salesforce
+    - Often accessed through web browser
+- OpenStack
+    - Collection of open source software that can make use of different hypervisors and other tools in order to offer a complete IaaS cloud enviro on premisise
+
+#### Privacy issues when using the internet
