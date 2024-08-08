@@ -139,7 +139,6 @@ Install and removal of packages via terminal:
     - `dpkg` (DEB Packages)
     - `apt-get`
     - `apt`
-    - `remove`
     - Searching repos
         - `apt-cache search package_name`
             - `apt-cache` used to search for pkgs and list info about available pkgs
@@ -152,14 +151,18 @@ Install and removal of packages via terminal:
     - `rpm` (RPM packages)
     - `yum`
     - `dnf`
-    - `remove`
     - Searching repos
         - `yum search package_name`
         - `dnf search package_name`
 - Full download and install string example
     - `sudo yum install package_name`
     - `sudo dnf install package_name`
-
+- Remove vs. purge
+    - Configuration files are not removed when updating software for seamless login
+    - apt-remove
+        - Doesn't remove configuration files
+    - apt-purge
+        - Removes configuration files
 #### Office applications
 - Most popular  
     - Apache OpenOffice
@@ -381,5 +384,75 @@ Install and removal of packages via terminal:
             - PHP programming
         - All of the programming languages described can also be used to implement these applications
 
+### 1.3
+Open source software and licensing  
+Weight: 1  
 
+#### The four essential freedoms
+- Freedom 0
+    - Freedom to run the program as you wish, for any purpose.
+- Freedom 1
+    - Freedom to study how the program works, and change it so it does your computing as you wish.
+    - Access to source code is a precondition.
+- Freedom 2
+    - Freedom to redistribute copies so you can help others.
+- Freedom 3
+    - Freedom to distribute copies of your modified versions to others.
+    - Gives whole community chance to benefit from changes.
+    - Access to source code is a precondition.
 
+#### FOSS & FLOSS
+- FOSS
+    - Free & open source software
+- FLOSS
+    - Free/libre & open source software
+- Proprietary
+    - For profit, controlled, limited 
+
+#### Copyleft
+- *Free Software Foundation* created licenses
+    - *GNU General Public License* (GPL)
+        - One of the most important license for free software
+        - Used for the Linux kernel
+    - *GNU Lesser General Public License* (LGPL)
+        - Combination free software with modifications made to code where source code for mods do not have to be released to public
+    - *GNU Affero General Public License* (AGPL)
+        - Covers selling access to hosted software
+    - *GNU Free documentation License* (FDL)
+        - Extends freedom principles to software documentation
+    - Also makes recommendations for or against:
+        - Third party license
+        - Affiliated projects
+
+- *Copyleft*
+    - FSF term meant to contrast principle of restrictive copyright
+    - Transfers the liberal principles of a software license as unrestrictedly as possible to future variants of the software in order to prevent subsequent restrictions. 
+    - Critics call copyleft "viral" since it's transmitted to subsequent versions
+    - LGPL is a concession to be able to connect free software with "non-free" components
+    - *Dual licensing*
+        - Licensing under multiple licenses
+        - e.g. a free license and a proprietary license
+
+#### Open source & licenses 
+- *Open Source Initiative* (OSI)
+    - Has standardized procedure for checking OS software license compliance
+    - Has more than 80 recognized OS licenses on the OSI website
+    - *Berkeley Software Distribution*
+        - Contradictory to copyleft
+        - "OSI approved," especially the BSD licenses group
+        - Varient of Unix OS originally deveoped at UC Berkeley
+        - Gave rise to
+            - NetBSD
+            - FreeBSD
+            - OpenBSD
+        - Underlying licenses "permissive" 
+            - Do not have aim of establishing terms of use of modified variants
+            - Maximum freedom should help sofware decide how to edit
+            - Developers have control over open or closed source
+        - *2-Clause BSD License*, aka *Simplified BSD License*, or *FreeBSD License*
+            - Consists of a standardized liability clause and the following:
+                - Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+                   - 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 
+                   - 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+#### Creative commons 
