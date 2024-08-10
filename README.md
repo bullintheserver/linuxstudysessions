@@ -388,7 +388,7 @@ Install and removal of packages via terminal:
 Open source software and licensing  
 Weight: 1  
 
-#### The four essential freedoms
+### The four essential freedoms
 - Freedom 0
     - Freedom to run the program as you wish, for any purpose.
 - Freedom 1
@@ -401,7 +401,7 @@ Weight: 1
     - Gives whole community chance to benefit from changes.
     - Access to source code is a precondition.
 
-#### FOSS & FLOSS
+### FOSS & FLOSS
 - FOSS
     - Free & open source software
 - FLOSS
@@ -409,7 +409,7 @@ Weight: 1
 - Proprietary
     - For profit, controlled, limited 
 
-#### Copyleft
+### Copyleft
 - *Free Software Foundation* created licenses
     - *GNU General Public License* (GPL)
         - One of the most important license for free software
@@ -433,7 +433,7 @@ Weight: 1
         - Licensing under multiple licenses
         - e.g. a free license and a proprietary license
 
-#### Open source & licenses 
+### Open source & licenses 
 - *Open Source Initiative* (OSI)
     - Has standardized procedure for checking OS software license compliance
     - Has more than 80 recognized OS licenses on the OSI website
@@ -455,7 +455,7 @@ Weight: 1
                    - 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 
                    - 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
-#### Creative commons 
+### Creative commons 
 - CC BY (Attribution)
     - Anyone can edit and distribute the work, must name original author
 - CC BY -SA (Attribution-ShareAlike)
@@ -469,7 +469,7 @@ Weight: 1
 - CC BY -NC -ND (Attribution-NonCommercial-NoDerivatives)
     - Attribution, non-commercial conditions, and unchanged
 
-#### Business models in open source
+### Business models in open source
 - *Crowdfunding* 
     - Collection of money donations 
     - Donors receive pre-defined bonus in event of success
@@ -489,7 +489,7 @@ Weight: 1
 ICT Skills and Working in Linux  
 Weight: 2  
 
-#### Desktop environments 
+### Desktop environments 
 - Modularity
     - Different parts of the Linux system are develped by different projects and developers
     - Several options for desktop enviros 
@@ -509,7 +509,7 @@ Weight: 2
 - Many terminals available 
     - *Xterm* another choice
 
-#### Presentations and projects
+### Presentations and projects
 - LibreOffice Impress
     - part of LibreOffice suite
     - Open source replacement for Microsoft Office
@@ -532,7 +532,7 @@ Weight: 2
     - GanttProject
     - ProjectLibre
 
-#### Industry uses of Linux
+### Industry uses of Linux
 - Estimated 68% of web servers are Unix
     - Largest portion of those are Linux
     - Allows for lower cost and greater scalability
@@ -566,7 +566,7 @@ Weight: 2
 - OpenStack
     - Collection of open source software that can make use of different hypervisors and other tools in order to offer a complete IaaS cloud enviro on premisise
 
-#### Privacy issues when using the internet
+### Privacy issues when using the internet
 - Cookie tracking
     - Websites save small files on computer to store and retrieve information
     - Meant for ease of use UX
@@ -595,7 +595,7 @@ Weight: 2
         - Can generate strong new passwords for you
         - *KeePass* and *Bitwarden* strong password managers
 
-#### Encryption
+### Encryption
 - *Transport Layer Security (TLS)*
     - Protocol that uses cryptography to secure network connections
     - Successor of *Secure Sockets Layer (SSL)*
@@ -646,3 +646,39 @@ Finding Your Way on a Linux System
 Command Line Basics  
 Weight: 3  
 
+### Shell
+- Text mode program that reads user imput and interprets it as commands to the system
+- A few common shells
+    - Bourne-again shell (Bash)
+    - C shell (csh, tcsh, enhanced csh)
+    - Korn shell (ksh)
+    - Z shell (zsh)
+- Bash
+    - Most common on Linux
+- Default prompt structure
+    - `username@hostname currentdirectory _shell_type`
+- Ubuntu, Debian GNU/Linux
+    - Regular user
+        - `carol@mycomputer:~$`
+    - Superuser
+        - `root@mycomputer:~#`
+- CentOS, RHL
+    - Regular user
+        - `[dave@mycomputer~]$`
+    - Superuser
+        - `[root@mycomputer~]#`
+- Components of structure
+    - `username`
+        - Name of user that runs the shell
+    - `hostname`
+        - Name of host on which shell runs
+        - There is also a command `hostname`
+            - Shows or sets system host name
+    - `current_directory`
+        - Directory shell is currently in
+        - A `~` means shell is in current user's home directory
+    - `shell_type` 
+        - `$` indicates shell is run by regular user
+        - `#` indicates shell is run by superuser `root`
+
+### Command line structure
