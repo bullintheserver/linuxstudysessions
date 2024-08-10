@@ -610,4 +610,39 @@ Weight: 2
             - Such as payment transactions and banking
 - GnuPG
     - GNU Privacy Guard
-        Open source implementation of OpenPGP
+        - Open source implementation of OpenPGP
+    - Can be used to sign, encrypt, and decrypt 
+    - Works with public-key cryptography
+    - Widely available 
+- Disk encryption
+    - Two basic methods
+        - Stacked
+            - Implemented on top of existing filesystem
+            - Files and directories encrypted before being stored
+        - Block
+            - Below filesystem layer
+            - Makes sure everything that is written to a block device is envrypted
+            - If observed offline, will look like random data
+    - *dm-crypt*
+        - De facto standard for block encryption for Linux systems 
+        - Native in the kernel
+        - Can be used with *LUKS (Linus Unified Key Setup)* extension
+            - Specification that implements a platform-independent standard for use with various tools
+    - *EncFS*
+        - Stackable 
+        - Easiest way to secure data on Linux
+        - Does not require root privileges
+        - Can work on existing filesystem without modifications 
+    - *Veracrypt*
+        - If access to data on various platforms needed
+        - Successor of Truecrypt 
+        - Allows creation of encrypted media and files
+        - Crossplatform: Linux, MacOS, Windows
+
+# Topic 2
+Finding Your Way on a Linux System
+
+## 2.1
+Command Line Basics  
+Weight: 3  
+
