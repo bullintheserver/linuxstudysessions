@@ -567,3 +567,47 @@ Weight: 2
     - Collection of open source software that can make use of different hypervisors and other tools in order to offer a complete IaaS cloud enviro on premisise
 
 #### Privacy issues when using the internet
+- Cookie tracking
+    - Websites save small files on computer to store and retrieve information
+    - Meant for ease of use UX
+    - Can be exploited 
+    - Many services require cookies to be enabled
+        - Websites can "break" if cookies are disabled 
+    - Cookie managers are useful tools to help manage and control cookie usage and persistance on your computer
+- DNT aka Do Not Track
+    - Does not mean your browsing is hidden
+    - DNT is simply a way to ask websites to not track you
+        - Websites don't have to comply 
+    - Uses header flag of HTTP request (DNT: 1) 
+    - Visit allaboutdnt.com for more info
+- Private windows
+    - aka private mode, incognito, or anonymous 
+    - Firefox: `ctrl`+`shift`+`p`
+    - Chrome: `ctrl`+`shift`+`n`
+    - Is not actually private but opens new window which will auto delete all session data upon exit
+        - No personal data, history, passwords, or cookies are stored after session ends 
+    - Is not private to the network, ISP, or someone standing behind you
+- Choosing the right password
+    - Do not use the same password more than once 
+    - Do not re-use same password/email combos 
+    - Do use a password manager 
+        - Manager stores all passwords and usernames 
+        - Can generate strong new passwords for you
+        - *KeePass* and *Bitwarden* strong password managers
+
+#### Encryption
+- *Transport Layer Security (TLS)*
+    - Protocol that uses cryptography to secure network connections
+    - Successor of *Secure Sockets Layer (SSL)*
+        - Depreciated due to security flaws
+    - Current version 1.3
+    - Provides privacy and authenticity
+        - Uses symmetric and asymmetric public/private keys to establish connections
+    - The lock icon in the brower address bar signifies secure connection
+    - HTTPS protocol
+        - HTTP over TLS
+        - Makes sensitive data transfer possible
+            - Such as payment transactions and banking
+- GnuPG
+    - GNU Privacy Guard
+        Open source implementation of OpenPGP
