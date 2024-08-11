@@ -703,8 +703,9 @@ Weight: 3
 - `type`
     - Follow with command to show type
 ```
-**$type echo**  
+$ type echo
 echo is a shell built in
-**$type man
+
+$ type man
 man is /usr/bin/man
 ```
