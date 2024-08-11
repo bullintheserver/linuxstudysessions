@@ -704,8 +704,20 @@ Weight: 3
     - Follow with command to show type
 ```
 $ type echo
-echo is a shell built in
+echo is a shell builtin
 
 $ type man
 man is /usr/bin/man
 ```
+### Quoting
+- Three types of quotes in Bash
+    - Double quotes
+    - Single quotes
+    - Escape characters
+- Double quotes
+    - Text in between quote marks are regular characters
+    - Special characters lose meaning
+        - Except
+            - `$`
+            - `\`
+            - ``\`
