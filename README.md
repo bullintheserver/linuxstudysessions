@@ -682,3 +682,24 @@ Weight: 3
         - `#` indicates shell is run by superuser `root`
 
 ### Command line structure
+- Basic structure
+    - `command [option(s)...] [argument(s)...]
+    - Example: `$ ls -l /home`
+        - Command: `ls` is program that will be run
+        - Options: `-l` is the swtich that modifies behavior
+        - Argument: `/home` is the additional data required, such as path or filename
+    - `--help`
+        - Use after command to display short overview of command
+
+### Command behavior types
+- Internal
+    - Part of shell itself
+    - Main purpose is executing tasks inside the shell
+- External
+    - Reside in individual files
+    - Usually binary programs or scripts
+    - Uses the `PATH` variable to search for executable file
+    - Users can create their own
+- `type`
+    - Follow with command to show type
+    - `**$type echo**  echo is a shell built in`
