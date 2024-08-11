@@ -702,4 +702,9 @@ Weight: 3
     - Users can create their own
 - `type`
     - Follow with command to show type
-    - `**$type echo**  echo is a shell built in`
+```
+**$type echo**  
+echo is a shell built in
+**$type man
+man is /usr/bin/man
+```
