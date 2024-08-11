@@ -720,4 +720,4 @@ man is /usr/bin/man
         - Except
             - `$`
             - `\`
-            - ``\`
+            - `\``
