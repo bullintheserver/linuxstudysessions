@@ -638,3 +638,4 @@ Weight: 2
         - Successor of Truecrypt 
         - Allows creation of encrypted media and files
         - Crossplatform: Linux, MacOS, Windows
+---
