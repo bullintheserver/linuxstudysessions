@@ -119,7 +119,7 @@ Weight: 2
 
 
 ## 1.2
-Major Open Sources Applications  
+Major Open Source Applications  
 Weight: 2  
 
 ### Applications & Software
@@ -381,7 +381,7 @@ Install and removal of packages via terminal:
         - All of the programming languages described can also be used to implement these applications
 
 ## 1.3
-Open source software and licensing  
+Open Source Software and Licensing
 Weight: 1  
 
 ### The four essential freedoms
