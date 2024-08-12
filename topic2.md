@@ -231,3 +231,9 @@ Weight: 1
 | 8 | System administration commands (usually only for root) |
 | 9 | Kernel routines [Non standard] |
 
+- Info pages
+    - More detailed than `man` pages
+    - Formatted in hypertext 
+    - Command to be explained added as argument
+        - `info mkdir`
+    
