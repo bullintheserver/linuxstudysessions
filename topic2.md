@@ -197,6 +197,7 @@ Weight: 1
     - Use `n` to jump to next match
 - Each man page divided into max of 11 sections
     - Some sections are optional
+
 | Section | Description |
 |---------|-------------|
 |NAME|Command name and brief description|
