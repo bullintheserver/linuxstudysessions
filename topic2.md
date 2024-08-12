@@ -156,10 +156,29 @@ Sun July 4 12:12:12 PM PDT 2025
     - Stores list of directories, separated by a colon, that contain executable programs eligible as commands from the Linux shell
     - Use `:` to append new directory to the variable
         - In example, `$PATH` is resolved as the current value, and the `:new_directory` is added on to the resolution using the setting function `=` 
+    - Use `PATH` variable with caution
+    - `which` can be used to locate executable files
+    - Order of elements in `PATH` defines lookup order
 ```
 $ echo $PATH
 /home/user/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 $ PATH=$PATH:new_directory
 $ echo $PATH
 /home/user/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:new_directory
+$ which nano
+/usr/bin/nano
 ```
+- Command substitution
+    - ``` var_name=`command [OPTION] path_here` ```
+```
+$ nr_files=`wc -l /etc/passwd`
+$ echo $nr_files
+100 /etc/passwd
+```
+## 2.2
+Using the Command Line to Get Help  
+Weight: 1  
+
+### Lesson 1
+
+#### Getting Help on the Command Line
