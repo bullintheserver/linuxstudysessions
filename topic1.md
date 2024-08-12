@@ -1,7 +1,3 @@
-# linuxstudysessions
-Study notes for my Linux Essentials certification journey. Guide follows LPI Essentials Study Guide. See Wiki for important links. 
-
----
 # Topic 1
 The Linux Community and a Career in Open Source  
 
