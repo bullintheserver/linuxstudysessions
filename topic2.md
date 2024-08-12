@@ -182,3 +182,22 @@ Weight: 1
 ### Lesson 1
 
 #### Getting Help on the Command Line
+- `/usr/share/doc/` stores most documentation
+- `--help`
+    - Follows command_name
+    - Brief instructions on command usage
+    - Good first try for learning parameters
+- `man`
+    - Manual page
+    - Command to be explained added as argument
+        - `man ls`
+    - `q` quits manual page
+    - Use `/` in front of word to search forward
+    - Use `?` in front of word to search backward
+    - Use `n` to jump to next match
+- Each man page divided into max of 11 sections
+    - Some sections are optional
+| Section | Description |
+|---------|-------------|
+|NAME|Command name and brief description|
+| SYNOPSIS | Description of the command's syntax |

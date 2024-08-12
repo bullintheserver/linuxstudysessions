@@ -23,4 +23,5 @@ Browse pages by topics as layed out in study guide.
 [Finding Your Way on a Linux System](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic2.md#topic-2)
 ### 2.1
 [Command Line Basics](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic2.md#21)
-
+### 2.2
+[Getting Help on the Command Line](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic2.md#22)
