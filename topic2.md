@@ -200,5 +200,34 @@ Weight: 1
 
 | Section | Description |
 |---------|-------------|
-|NAME|Command name and brief description|
+| NAME | Command name and brief description |
 | SYNOPSIS | Description of the command's syntax |
+| DESCRIPTION | Description of the effects of the command |
+| OPTIONS | Available options |
+| ARGUMENTS | Available arguments |
+| FILES | Auxiliary files |
+| EXAMPLES | A sample of the command line |
+| SEE ALSO | Cross-references to the related topics |
+| DIAGNOSTICS | Warning and Error messages |
+| COPYRIGHT | Author(s) of the command |
+| BUGS | Any known limitations of the command |
+
+- There are 8 categories of man pages
+    - Each man page belongs to exactly one category
+    - Multiple categories can contain man pages with same name
+    - You can specify category number
+        - `man 1 passwd`, `man 5 passwd`
+
+
+| Category | Description |
+|----------|-------------|
+| 1 | Executable programs or shell commands |
+| 2 | System calls (functions provided by the kernel) |
+| 3 | Library calls (functions within program libraries) |
+| 4 | Special files (usually found in /dev) |
+| 5 | File formats and conventions, e.g. /etc/passwd |
+| 6 | Games |
+| 7 | Miscellaneous (including macro packages and conventions), e.g. man(7), groff(7), man-pages(7) |
+| 8 | System administration commands (usually only for root) |
+| 9 | Kernel routines [Non standard] |
+
