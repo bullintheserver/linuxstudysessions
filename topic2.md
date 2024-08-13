@@ -177,12 +177,18 @@ $ echo $nr_files
 ```
 ## 2.2
 Using the Command Line to Get Help  
-Weight: 1  
+Weight: 2
 
-### Lesson 1
-
-#### Getting Help on the Command Line
-- `/usr/share/doc/` stores most documentation
+### Getting Help on the Command Line
+- `/usr/share/doc/`
+    - Stores most documentation of commands used by system 
+    - Contains directory for most packages installed on system
+        - Usually name of package and possibly version
+        - Include a `README` OR `readme.txt` containing basic package documentation
+        - Folder can also contain other documentation such as:
+            - Changelog
+                - Includes history of program in detail
+            - Example configuration files
 - `--help`
     - Follows command_name
     - Brief instructions on command usage
@@ -236,4 +242,35 @@ Weight: 1
     - Formatted in hypertext 
     - Command to be explained added as argument
         - `info mkdir`
-    
+    - Read from file structured as nodes within a tree
+    - Contains hyperlinks 
+    - Use `?` for navigation instructions
+- `locate`
+    - Searches within a database
+    - Outputs ever matching string
+    - Supports wildcard and regular expressions use
+    - Behaves as it pattern is surrounded by aserisks by default
+        - Allows for substrings instead of exact filename
+        - Recent files might not be found
+            - Update database using `sudo updatedb`
+- `find`
+    - Searches directory tree recursively
+    - Does not mantain a database like `locate`
+    - Supports wildcards and regular expressions
+    - Requires at least a path
+        - `.` Searches current directory
+        - `~` Searches user's home directory
+    - Expressions can be added to filter 
+        - e.g. `-name` 
+```
+$ find ~ -name thesis.pdf
+/home/carol/Downloads/thesis.pdf
+```
+## 2.3
+Using Directories and Listing Files  
+Weight: 2  
+
+### Files and Directories
+
+#### Lesson 1
+
