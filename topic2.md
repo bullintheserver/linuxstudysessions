@@ -270,7 +270,58 @@ $ find ~ -name thesis.pdf
 Using Directories and Listing Files  
 Weight: 2  
 
-### Files and Directories
+### Lesson 1
 
-#### Lesson 1
+#### Files, Directories, Naming
+
+- Files
+    - Contain data
+        - Human readable text
+        - Executable programs
+        - Binary data
+- Directories
+    - Create organization within filesystem
+    - Can contain
+        - Files
+        - Subdirectories
+            - Has a *parent* / *child* relationship
+- Naming
+    - Case sensitive
+    - Files and directories can contain
+        - Upper case
+        - Lower case
+        - Numbers
+        - Spaces
+        - Special characters
+        - Suffixes
+            - .txt, .pdf, .jpg, etc.
+            - Have no special meaning in Linux
+            - There for human understanding
+
+#### Navigating the Filesystem
+
+- `pwd`
+    - *Print working directory*
+    - Can also be seen in command prompt before `$` or `#`
+- `/`
+    - Denotes relationships
+    - Directory hierarchy read from left to right
+    - Directories on right are subdirectories
+    - Directories on left are parent directories
+- `ls` 
+    - Lists contents of current directory
+    - Does not see parent or child directories by default
+        - Must use modifier to see beyond current directory
+- `cd` 
+    - Changes directory
+    - Can use absolute or relative path
+        - Use `ls` to relative paths for current location
+    - `cd ..` up a level
+    - `cd /` root directory
+    - `cd ~` home directory
+    - `cd -` previous directory
+    - `cd [path] && ls`
+        - Goes to `path` and lists contents simultaneously
+
+#### Absolute and Relative Paths
 
