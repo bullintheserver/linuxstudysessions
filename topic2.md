@@ -303,6 +303,9 @@ Weight: 2
 - `pwd`
     - *Print working directory*
     - Can also be seen in command prompt before `$` or `#`
+    - Always prints absolute path
+        - Every step of path printed 
+        - Always begins with a `/`
 - `/`
     - Denotes relationships
     - Directory hierarchy read from left to right
@@ -322,6 +325,10 @@ Weight: 2
     - `cd -` previous directory
     - `cd [path] && ls`
         - Goes to `path` and lists contents simultaneously
+    - Can use relative paths 
+        - Only has meaning in relation to current location
+
 
 #### Absolute and Relative Paths
 
+- 
