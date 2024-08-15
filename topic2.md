@@ -329,6 +329,4 @@ Weight: 2
         - Only has meaning in relation to current location
 
 
-#### Absolute and Relative Paths
-
-- 
+### Lesson 2
