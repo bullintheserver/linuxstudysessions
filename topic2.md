@@ -330,3 +330,32 @@ Weight: 2
 
 
 ### Lesson 2
+
+#### Home Directories
+- Changes in root affect all users
+- Changes in root require admin perms
+- Home
+    - Users separated into dedicated compartments 
+    - Root responsible for utilities and maintenance 
+- Terminal command prompt 
+    - `user@hostname ~ $`
+        - The `~` represents *home directory*
+    - Users will always begin a new session in their home directory
+    - `cd ~` or `cd` to jump to user `home`
+    - Specify `home` of other users by placing username after tilde
+        - `$ ls ~michael`
+        - Must have permission
+
+#### Hidden Files and Directories
+- `ls -a`
+    - Lists all, incl. hidden, files and directories
+    - Hidden files and directories will always begin with a period `.`
+    - By default, user's home includes many hidden files
+        - Used to set user-specific config settings 
+        - Should only be modified by experienced user
+- `ls -l` 
+    - `-l` creates a long list
+    - Files and dirs. occupy one one
+    - Additional info on each file and dir. is displayed
+        - Permissions
+        - 
