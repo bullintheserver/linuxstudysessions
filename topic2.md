@@ -355,7 +355,15 @@ Weight: 2
         - Should only be modified by experienced user
 - `ls -l` 
     - `-l` creates a long list
-    - Files and dirs. occupy one one
+    - Files and dirs. occupy one line
     - Additional info on each file and dir. is displayed
         - Permissions
-        - 
+        - Number of links to the file
+        - Ownership
+        - Size in bytes
+        - Timestand of last modification
+        - Name
+```
+$ ls -l
+-rw-r--r-- 1 user staff    3606 Jan 13  2017 report2018.txt
+```
