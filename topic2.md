@@ -350,10 +350,13 @@ Weight: 2
 - `ls -a`
     - Lists all, incl. hidden, files and directories
     - Hidden files and directories will always begin with a period `.`
+        - `.` represents *current location*
+        - `..` represents *parent directory*
     - By default, user's home includes many hidden files
         - Used to set user-specific config settings 
         - Should only be modified by experienced user
 - `ls -l` 
+    - Alias `ll`
     - `-l` creates a long list
     - Files and dirs. occupy one line
     - Additional info on each file and dir. is displayed
@@ -367,3 +370,62 @@ Weight: 2
 $ ls -l
 -rw-r--r-- 1 user staff    3606 Jan 13  2017 report2018.txt
 ```
+#### Additional `ls` Options
+
+- `ls -lh` 
+    - Combines *long list* with *human readable* 
+- `ls -d */` 
+    - `-d` option lists directories but not contents
+    - `*/` shows only subdirectories and no files
+- `ls -lt` 
+    - Combines *long list* with sort by *modification time*
+    - Most recent at top, oldest at bottom
+- `ls -lrt` 
+    - Same as above but with `r` *reverse* sort
+- `ls -lX` 
+    - Combines *long list* with sort by *file eXtension* 
+- `ls -S` 
+    - Sorts by *size*
+    - Large to small 
+    - Subdirectories not invluded in sort
+- `ls -R` 
+    - Displays *recursive* list
+    - "Unfolds" or runs the "ls" command in each subdirectory 
+
+## 2.4
+Creating, Moving, and Deleting Files  
+Weight: 2 
+
+### Creating 
+
+- Case sensitivity
+    - Linux is case sensitive
+    - Windows is not case sensitive 
+- Directories
+    - File used to organize files
+    - Directories can hold other directories
+- Files
+    - Collection of data
+        - Has a name
+        - Has attributes
+- `mkdir` 
+    - Creates directories
+    - Add `-p` or `--parents` option to create subdirectories simultaniously
+- `find` 
+    - Used to search for files and directories
+    - Without options, returns listing of all files, directories, sub-dirs. of current directory
+- `touch`
+    - Followed by name will create empty file 
+    - If ran on existing file, mod timestamp will update
+- `cat` aka *concatenate*
+    - Used to view contents of a file
+    - Can merge files
+        - `cat file1.txt file2.txt > file3.txt`
+- `echo`
+    - Displays text on the command line
+    - If ran with an `>` *output redirect* it will write the text to a file
+    - `>` will overwrite if file name already exists
+    - `>>` appends text to the end of existing file
+
+### Moving
+
