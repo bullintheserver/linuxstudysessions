@@ -29,3 +29,7 @@ Browse pages by topics as layed out in study guide.
 [Using Directories and Listing Files](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic2.md#23)
 ### 2.4
 [Creating, Moving, and Deleting Files](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic2.md#24)
+
+--- 
+
+## Topic 3  
