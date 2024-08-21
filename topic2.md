@@ -428,4 +428,57 @@ Weight: 2
     - `>>` appends text to the end of existing file
 
 ### Moving
+- `mv`
+    - Last argument is destination dir
+    - Multiple files can be specified
+    - ex: `mv file1 file2 dir1`
+    - Can be used to rename
+        - `mv dir1 dir2`
 
+### Deleting
+- `rm` can delete files and directories
+    - Use `rm -r` to recursively remove nested directories
+        - USE WITH CAUTION
+        - `rm -ri` to prompt for confirmation before deletion
+- `rmdir` will delete empty directories
+
+### Copying
+- `cp` copies files and directories
+    - Use last argument as destination of copies
+    - If last argument is a file, it will be overwritten 
+    - Use `-r` for copying directories
+        - Will also copy contents of directory
+
+### Globbing
+- Pattern matching language 
+- `*` 
+    - Matches any number of any characters
+        - Includes no characters
+- `?`
+    - Matches any one character
+- `[]`
+    - Matches a class of characters 
+        - `[:classname:]`
+        - e.g. `ls file[[:digit:]]`
+    - Both `[]` and `{}` will work with `ls` to display ranges
+        - `ls file[1-3]` or `ls file{1..3}` 
+    - Only `{}` will work with `touch` to write a range of individual files
+        - `touch file{1..3}`
+- Pattern matching characters can be mixed
+    - `ls file[1-3]*`
+- Must use `\` to escape these special meanings
+
+| classname | description |
+|-----------|-------------|
+| [:alnum:] |
+| [:alpha:] |
+|[:blank:]
+|[:cntrl:]
+|[:digit:]
+|[:graph:]
+|[:lower:]
+|[:print:]
+|[:punct:]
+|[:space:]
+|[:upper:]
+|[:xdigit:]
