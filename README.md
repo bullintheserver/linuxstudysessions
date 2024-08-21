@@ -25,3 +25,7 @@ Browse pages by topics as layed out in study guide.
 [Command Line Basics](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic2.md#21)
 ### 2.2
 [Getting Help on the Command Line](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic2.md#22)
+### 2.3
+[Using Directories and Listing Files](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic2.md#23)
+### 2.4
+[Creating, Moving, and Deleting Files](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic2.md#24)
