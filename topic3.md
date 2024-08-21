@@ -17,23 +17,68 @@ Weight: 2
         - Quality loss is imperceptible for humans
         - Space is more valuable than quality
         - Quality is irrelevant to context
+- Linux compression tools
+    - Lossless
+        - `bzip2` (`.bz`)
+        - `gzip` (`.gz`, `.z`, `.tgz` for `tar`)
+        - `xz` (`.xz`)
+    - Each tool uses a different algorithm
+        - Won't work interchangeably
+    - Incl. special versions of common tools
+        - `cat`, `grep`, `diff`, `less`, `more`
+        - `gzip` tools prefixed with `z`
+            - e.g. `zcat`, `zgrep`, etc.
+        - `bzip2` prefixed with `bz`
+        - `xz` prefixed with `xz`
 - Archiving tools
     - Used to bundle files/dirs. into single file
     - Common uses:
         - Backups
         - Bundled source code
         - Data retention 
-    - Compression capabilities range from:
+    - Compression capabilities of archivers range from:
         - Optional
         - Default
         - Not included
+
+### tar
 - `tar`
+    - Stands for *tape archive*
     - Most common Linux archiver
     - On it's own manages but does not compress
-- Linux compression tools
-    - Lossless
-        - `bzip2`
-        - `gzip`
-        - `xz`
-    - Each tool uses a different algorithm
-        - Won't work interchangeably
+    - Files known as *tar balls*
+- `-c` option
+    - Creates new archive file
+- `-f` option
+    - Specifies the next input is name of file
+    - Can include path
+    - Without path, will place in current location
+- Final arguments
+    - After location and name
+    - Paths to files/dirs to be included
+- `-t` option
+    - Lists contents of an archive
+- `-v`
+    - Verbose mode
+    - Displays operations and names of files
+- `-x`
+    - Extracts files from archive
+    - Can be used to extract single file from within archive
+        - Use path and filename
+- `-u`
+    - Updater, appends does not overwrite 
+    - Add files to existing uncompressed `tar` archive
+    - Will cause error if attempted with compressed `tar`
+- Compression calls as options
+    - `bzip2`
+        - `-j`
+        - e.g. `tar -cjf file.tar.bz2 bigfile1`
+    - `xz`
+        - `-J` 
+        - e.g. `tar -cJf file.tar.xz bigfile1`
+    - `gzip`
+        - `-z`
+        - e.g. `tar -czf file.tar.gz bigfile1`
+    - Remember to always add correct file extensions
+
+### zip
