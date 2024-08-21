@@ -470,15 +470,16 @@ Weight: 2
 
 | classname | description |
 |-----------|-------------|
-| [:alnum:] |
-| [:alpha:] |
-|[:blank:]
-|[:cntrl:]
-|[:digit:]
-|[:graph:]
-|[:lower:]
-|[:print:]
-|[:punct:]
-|[:space:]
-|[:upper:]
-|[:xdigit:]
+| [:alnum:] | Letters and numbers |
+| [:alpha:] | Upper or lowercase letters |
+| [:blank:] | Spaces and tabs |
+| [:cntrl:] | Control characters, e.g. backspace, bell, NAK, escape |
+| [:digit:] | Numerals (0123456789) |
+| [:graph:] | Graphic characters (all characters except ctrl and the space character) |
+| [:lower:] | Lowercase letters (a-z) |
+| [:print:] | Printable characters (alnum, punct, and the space character) |
+| [:punct:] | Punctuation characters, i.e. !, &, " |
+| [:space:] | Whitespace characters, e.g. tabs, spaces, newlines |
+| [:upper:] | Uppercase letters (A-Z) |
+| [:xdigit:] | Hexadecimal numerals (usually 0123456789abcdefABCDEF) |
+
