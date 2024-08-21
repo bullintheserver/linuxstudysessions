@@ -8,7 +8,7 @@ Weight: 3
 ### Lesson 1
 
 #### Shell
-- Text mode program that reads user imput and interprets it as commands to the system
+- Text mode program that reads user input and interprets it as commands to the system
 - A few common shells
     - Bourne-again shell (Bash)
     - C shell (csh, tcsh, enhanced csh)
@@ -47,7 +47,7 @@ Weight: 3
     - `command [option(s)...] [argument(s)...]
     - Example: `$ ls -l /home`
         - Command: `ls` is program that will be run
-        - Options: `-l` is the swtich that modifies behavior
+        - Options: `-l` is the switch that modifies behavior
         - Argument: `/home` is the additional data required, such as path or filename
     - `--help`
         - Use after command to display short overview of command
@@ -90,7 +90,7 @@ $ touch new_file
 ```
 - Single quotes
     - No exceptions 
-    - Revoke any speical meaning
+    - Revoke any special meaning
 - Escape characters
     - Removes special meanings of characters
     - Placed before special character
@@ -114,7 +114,7 @@ I am $USER
     - Common tool in most programming languages
 - Two types in most Linux shells
     - Local variables
-        - Avaiable to current shell process only
+        - Available to current shell process only
         - Not inherited by sub processes
     - Environment variables
         - Available in specific shell sessions and in sub processes spawned from that shell session
@@ -249,13 +249,13 @@ Weight: 2
     - Searches within a database
     - Outputs ever matching string
     - Supports wildcard and regular expressions use
-    - Behaves as it pattern is surrounded by aserisks by default
+    - Behaves as it pattern is surrounded by asterisks by default
         - Allows for substrings instead of exact filename
         - Recent files might not be found
             - Update database using `sudo updatedb`
 - `find`
     - Searches directory tree recursively
-    - Does not mantain a database like `locate`
+    - Does not maintain a database like `locate`
     - Supports wildcards and regular expressions
     - Requires at least a path
         - `.` Searches current directory
@@ -364,7 +364,7 @@ Weight: 2
         - Number of links to the file
         - Ownership
         - Size in bytes
-        - Timestand of last modification
+        - Timestamp of last modification
         - Name
 ```
 $ ls -l
@@ -387,7 +387,7 @@ $ ls -l
 - `ls -S` 
     - Sorts by *size*
     - Large to small 
-    - Subdirectories not invluded in sort
+    - Subdirectories not included in sort
 - `ls -R` 
     - Displays *recursive* list
     - "Unfolds" or runs the "ls" command in each subdirectory 
@@ -410,7 +410,7 @@ Weight: 2
         - Has attributes
 - `mkdir` 
     - Creates directories
-    - Add `-p` or `--parents` option to create subdirectories simultaniously
+    - Add `-p` or `--parents` option to create subdirectories simultaneously
 - `find` 
     - Used to search for files and directories
     - Without options, returns listing of all files, directories, sub-dirs. of current directory
@@ -483,3 +483,4 @@ Weight: 2
 | [:upper:] | Uppercase letters (A-Z) |
 | [:xdigit:] | Hexadecimal numerals (usually 0123456789abcdefABCDEF) |
 
+---

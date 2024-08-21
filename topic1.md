@@ -34,10 +34,10 @@ Weight: 2
 - Less stable than Debian  
 
 #### Red Hat  
-- Aquired by IBM in 2019  
+- Acquired by IBM in 2019  
 - Started in 1994  
 - Reliable enterprise solution  
-- Comes with software aiming to ease Linux use in pro server evironments  
+- Comes with software aiming to ease Linux use in pro server environments  
 - Some components fee based  
 - CentOS uses source code of Red Hat & is free but unsupported  
 - RH & Centos optimized for server environments  
@@ -53,7 +53,7 @@ Weight: 2
 - Commercial ed.: SUSE Linux Enterprise Server 
     - Comes as both a server and desktop enviro
     - Is suitable for enterprise and production deployment 
-- openSUSE allows for devs to futher test and develp the system, is free
+- openSUSE allows for devs to further test and develp the system, is free
 
 #### QubesOS  
 - Secure desktop enviro
@@ -235,7 +235,7 @@ Install and removal of packages via terminal:
         - lighttpd
 - Database servers
     - Database
-        - Orgnaized set of information
+        - Organized set of information
     - Stores contents in formatted fashion
     - Most common type
         - Relational database
@@ -271,7 +271,7 @@ Install and removal of packages via terminal:
     - ownCloud
         - More focused on
             - File sharing
-            - Thrid-party integration
+            - Third-party integration
         - Supports plugins
     - Nextcloud
         - *Fork* (aka spin-off) of ownCloud
@@ -291,7 +291,7 @@ Install and removal of packages via terminal:
             - Encrypts all connections to your cloud
 
 #### Network administration
-- Netowrk configuration
+- Network configuration
     - Set of programs running on router
         - Responsible for setting up and checking network availability
     - *Dynamic Host Configuration Protocol* (*DHCP*)
@@ -436,14 +436,14 @@ Weight: 1
     - *Berkeley Software Distribution*
         - Contradictory to copyleft
         - "OSI approved," especially the BSD licenses group
-        - Varient of Unix OS originally deveoped at UC Berkeley
+        - Variant of Unix OS originally developed at UC Berkeley
         - Gave rise to
             - NetBSD
             - FreeBSD
             - OpenBSD
         - Underlying licenses "permissive" 
             - Do not have aim of establishing terms of use of modified variants
-            - Maximum freedom should help sofware decide how to edit
+            - Maximum freedom should help software decide how to edit
             - Developers have control over open or closed source
         - *2-Clause BSD License*, aka *Simplified BSD License*, or *FreeBSD License*
             - Consists of a standardized liability clause and the following:
@@ -471,7 +471,7 @@ Weight: 1
     - Donors receive pre-defined bonus in event of success
 - *Dual licensing*
     - Free software is offered in parallel under more restrictive or proprietary license
-    - Guarantees more xtensive features 
+    - Guarantees more extensive features 
     - Business editions
 - *Professional services*
     - Consulting, maintenance, helpdesk, hosting, support
@@ -487,7 +487,7 @@ Weight: 2
 
 ### Desktop environments 
 - Modularity
-    - Different parts of the Linux system are develped by different projects and developers
+    - Different parts of the Linux system are developed by different projects and developers
     - Several options for desktop enviros 
     - Can install multiple enviros and pick the most useful for the user
 - Two major desktop enviros in Linux world
@@ -532,7 +532,7 @@ Weight: 2
 - Estimated 68% of web servers are Unix
     - Largest portion of those are Linux
     - Allows for lower cost and greater scalability
-    - Many Linux sytems run in cloud as IaaS, PaaS, or SaaS
+    - Many Linux systems run in cloud as IaaS, PaaS, or SaaS
 - IaaS (Infrastructure as a Service)
     - Pay as you go format
     - Process known as *Virtualization*
@@ -560,7 +560,7 @@ Weight: 2
     - i.e. Dropbox, Salesforce
     - Often accessed through web browser
 - OpenStack
-    - Collection of open source software that can make use of different hypervisors and other tools in order to offer a complete IaaS cloud enviro on premisise
+    - Collection of open source software that can make use of different hypervisors and other tools in order to offer a complete IaaS cloud enviro on premises
 
 ### Privacy issues when using the internet
 - Cookie tracking
@@ -599,7 +599,7 @@ Weight: 2
     - Current version 1.3
     - Provides privacy and authenticity
         - Uses symmetric and asymmetric public/private keys to establish connections
-    - The lock icon in the brower address bar signifies secure connection
+    - The lock icon in the browser address bar signifies secure connection
     - HTTPS protocol
         - HTTP over TLS
         - Makes sensitive data transfer possible
@@ -617,7 +617,7 @@ Weight: 2
             - Files and directories encrypted before being stored
         - Block
             - Below filesystem layer
-            - Makes sure everything that is written to a block device is envrypted
+            - Makes sure everything that is written to a block device is encrypted
             - If observed offline, will look like random data
     - *dm-crypt*
         - De facto standard for block encryption for Linux systems 
@@ -633,5 +633,6 @@ Weight: 2
         - If access to data on various platforms needed
         - Successor of Truecrypt 
         - Allows creation of encrypted media and files
-        - Crossplatform: Linux, MacOS, Windows
+        - Cross-platform: Linux, MacOS, Windows
+
 ---
