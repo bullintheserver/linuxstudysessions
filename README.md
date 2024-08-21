@@ -33,3 +33,9 @@ Browse pages by topics as layed out in study guide.
 --- 
 
 ## Topic 3  
+[The Power of the Command Line](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic3.md#topic-3)  
+### 3.1  
+[Archiving Files on the Command Line](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic3.md#31)  
+### 3.2  
+[Searching and Extracting Data from Files](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic3.md#32)
+### 3.3  

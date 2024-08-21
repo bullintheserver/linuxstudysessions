@@ -163,3 +163,31 @@ Weight: 3
     - Use same rules as `>` and `>>` but with the channels combined
 
 #### Command Line Pipes 
+- `|`
+    - *Pipes*
+    - Link commands directly
+    - Avoids saving output then running separate command
+    - First command output becomes second command input
+    - Can be used in succession to continue filtering 
+- `head`
+    - Displays first 10 lines of text by default
+- `tail`
+    - Displays last 10 lines of text by default
+- `more`
+    - Allows for paging through files
+- `less`
+    - Allows for paging through files 
+    - Can scroll forward and backward
+    - More robust and faster than `more`
+    - *Less is more*
+        - Used to remember `less` has more functionality 
+- `wc`
+    - Counts lines, words, bytes
+    - `-w` counts only words
+    - `-l` counts only lines
+    - `-c` counts only bytes
+
+### Lesson 2
+
+#### grep
+
