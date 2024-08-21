@@ -82,3 +82,84 @@ Weight: 2
     - Remember to always add correct file extensions
 
 ### zip
+- Windows compatibility 
+    - `tar` applications uncommon in Windows
+    - Use ZIP files for Windows interaction 
+- ZIP files
+    - Is an archive file
+    - Similar to compressed `tar` file
+    - `zip` & `unzip` will work on Linux CLI 
+    - `-r` recursion needed to include directory contents
+    - `-f` freshen
+    - `#` 
+        - Regulates speed of compression
+        - `-1` fastest (least compression)
+        - `-9` slowest (most compressed)
+        - `-6` default level 
+
+## 3.2
+Searching and Extracting Data from Files  
+Weight: 3 
+
+### Lesson 1
+
+#### I/O Redirection 
+- *stdin*
+    - Channel 0
+    - Standard input
+    - Considered to be keyboard
+- *stdout*
+    - Channel 1
+    - Standard output
+    - Considered screen
+- *stderr*
+    - Channel 2
+    - Default redirects error outputs
+        - For command
+        - For programs 
+        - Input/output can be redirected 
+- Redirection of command components 
+    - Transmit information to command
+    - Redirect output to file
+    - Redirect from or to command via text file
+- `>`
+    - Redirect output to file
+    - Follow will name of file
+    - Will create non-existent file
+    - Will overwrite existing file
+- `>>`
+    - Appends and returns carriage to next line
+    - Will not overwrite file
+    - Can create new file
+    - Follow with desired file name
+- `2>`
+    - Redirects just error messages
+    - Follow with desired file name
+- `2>>`
+    - Append error message
+    - Same rules as `>>`
+- `/dev/null`
+    - Use with caution
+    - Is a *bit bucket*
+    - Unwanted output can be piped here
+    - Data sent to `/dev/null` is discarded 
+    - Provides no data when read from
+- `<` 
+    - Input data to a command from file
+    - `cat < filename.txt`
+    - Used with commands that don't accept file arguments
+        - e.g. `tr -d "s" < filename.txt`
+            - Deletes the letter "s" out of filename.txt 
+- `<<`
+    - *Here document*
+    - Represents block of code/text which can be redirected to the command or interactive program
+    - Different types of scripting languages can take input directly from CLI without using text files
+    - Will present you with lines you can return in without submission
+    - Submit by entering name given after `<<` followed by return carriage 
+    - Can be combined with other redirection
+        - e.g. `cat << inthehat > inthehat.txt`
+- `&>`, `&>>`
+    - Combines channel 1 and channel 2 outputs 
+    - Use same rules as `>` and `>>` but with the channels combined
+
+#### Command Line Pipes 
