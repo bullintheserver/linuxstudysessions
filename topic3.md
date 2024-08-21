@@ -6,3 +6,7 @@ Archiving Files on the Command Line
 Weight: 2 
 
 ### Introduction
+- Compression
+    - Reduces space consumption
+    - Reduces data transfer size on networks
+    
