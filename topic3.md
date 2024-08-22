@@ -135,6 +135,7 @@ Weight: 3
 - `2>`
     - Redirects just error messages
     - Follow with desired file name
+    - useful for creating error logs
 - `2>>`
     - Append error message
     - Same rules as `>>`
@@ -171,8 +172,10 @@ Weight: 3
     - Can be used in succession to continue filtering 
 - `head`
     - Displays first 10 lines of text by default
+    - `-n` specifies number of lines if desired
 - `tail`
     - Displays last 10 lines of text by default
+    - `-n` specifies number of lines if desired
 - `more`
     - Allows for paging through files
 - `less`
@@ -186,6 +189,21 @@ Weight: 3
     - `-w` counts only words
     - `-l` counts only lines
     - `-c` counts only bytes
+- `cut`
+    - Prints selected parts of lines from FILE to standard output
+    - `-f` specifies the field 
+    - `-d` specifies how fields are to be defined
+        - Delimiter
+        - e.g. `/` will define fields as between each `/`S
+- `tr`
+    - Translates or deletes characters
+    - `-d` specifies deletion
+    - `-s` *squeeze repeats* 
+        - Replace sequence of repeated characters with single occurrence 
+- `sort`
+    - Write sorted concatenation of FILE to standard output
+    - `-f` ignores case
+    - `-r` reverses output 
 
 ### Lesson 2
 
@@ -207,6 +225,8 @@ Weight: 3
     - Turns on extended regular expressions
     - Needed by advanced meta-characters
         - e.g. `|`, `+`, `?`
+    - Can also use `egrep`
+        - Depreciated in some systems
 
 #### Regular Expressions
 - Extracts data by constructing patterns
@@ -231,4 +251,36 @@ Weight: 3
 | `either\|or` | Find either of the listed strings |
 | `^` | Start of a line |
 | `$` | End of a line |
+| `*` | Zero or more of the preceding pattern |
+| `+` | One or more of the preceding pattern |
+| `?` | Zero or one of the preceding pattern |
 
+```
+$ grep "^a" text.txt
+ant
+anvil
+arachnid 
+
+$ grep "a$" text.txt
+santa
+flora
+fauna
+
+$ grep -E "ab.+" text.txt
+abcde
+about
+cab ride
+```
+
+- `sed`
+    - Stream editor
+    - Filters and transforms text
+    - Can find and replace characters and sets of characters
+
+## 3.3
+Turning Commands into a Script  
+Weight: 4 
+
+### Lesson 1
+
+####
