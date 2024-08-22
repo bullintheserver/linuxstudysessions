@@ -190,4 +190,45 @@ Weight: 3
 ### Lesson 2
 
 #### grep
+- `grep`
+    - *global regular expression print*
+    - Searches within file for specified pattern
+    - Outputs line containing pattern and highlights in red
+- `-i`
+    - Search case-insensitive 
+- `-r` 
+    - Recursive search through subdirectories 
+- `-c` 
+    - Counts number of matches 
+- `-v` 
+    - Inverts search
+    - Prints lines that do not match
+- `-E`
+    - Turns on extended regular expressions
+    - Needed by advanced meta-characters
+        - e.g. `|`, `+`, `?`
+
+#### Regular Expressions
+- Extracts data by constructing patterns
+- Commonly used within scripts or when programming
+    - Often with high level languages: Perl, Python
+- !!! Every character counts !!!
+    - Pattern is written to match specific string
+- Most patterns use normal ASCII symbols
+    - Letters
+    - Digits
+    - Punctuation
+    - Symbols
+- Can also use Unicode
+
+| Meta-Characters | Function |
+|-----------------|----------|
+| `.` | Match any single character (except newline) |
+| `[abcABC]` | Match any one character within the brackets |
+| `[^abcABC]` | Match any one character except the ones in the brackets |
+| `[a-z]` | Match any character in the range |
+| `[^a-z]` | Match any character except the ones in the range |
+| `either\|or` | Find either of the listed strings |
+| `^` | Start of a line |
+| `$` | End of a line |
 
