@@ -283,4 +283,54 @@ Weight: 4
 
 ### Lesson 1
 
-####
+#### Commands and PATH
+- `which` 
+    - Locates a command
+    - `a` prints all matching pathnames of each argument
+- `$PATH`
+    - View with `echo $PATH`
+    - Each location in $PATH is where shell expects to find a command
+    - Delimited with `:`
+- Calling written script
+    - Ways to tell shell how to find script
+        - Move script into one of the `$PATH` directories
+        - Add current directory to `PATH`
+        - Specify *current location* with `./` 
+            - `$ ./new_script_name` 
+- Permissions
+    - `ls -l` to view permissions
+    - e.g. `drwxrwxrwx`
+    - First bit indicates file type
+        - `-` (file)
+        - `d` (directory)
+        - `l` (that is a lower case L, for link)
+    - The 9 other bits represent
+        - 1. 1-3 = *User*
+        - 2. 4-6 = *Group*
+        - 3. 7-9 = *Other*
+    - Possible bit options
+        - 1. *Read*
+        - 2. *Write*
+        - 3. *Execute*
+        - A dash (`-`) indicates lack of permissions
+        - e.g. `w-x`, `wr-`. `--x`
+    - Symbolic representation
+        - `4` represents `r`
+        - `2` represents `w`
+        - `1` represents `x`
+        - e.g. `r-x` = 5, `r--` = 4, `rwx` = 7
+        - Full string is represented by 3 digits
+            - e.g. `-rw-rw-r--` is a file represented by `664`
+    - `chmod` changes file mode bits
+        - `chmod +x new_script` 
+            - Grants execute perms to all users
+            - Poses security risk, use with caution
+- Defining the Interpreter 
+    - If Bash script is being written find path for Bash script using:
+        - `which bash`
+        - `/bin/bash`
+- *Shebang*
+    - Gets placed on first line of script
+    - Determines type of interpreter to use
+    - e.g. `#!/bin/bash`
+    
