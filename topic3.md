@@ -330,7 +330,54 @@ Weight: 4
         - `which bash`
         - `/bin/bash`
 - *Shebang*
+    - `#!`
     - Gets placed on first line of script
+    - Follow with absolute path
     - Determines type of interpreter to use
     - e.g. `#!/bin/bash`
-    
+    - Comment lines
+        - Start with `#`
+        - Leave explanatory comments 
+    - Label your script
+        - Use naming conventions 
+        - Script might be `.txt` 
+            - Rename to `.sh` for Bash
+            - `.bash` also used
+            - Improves organization, accuracy, speed
+
+#### Common Text Editors
+- *vi*
+    - Installed by default on almost every Linux system
+    - Spawned clone *vi IMproved* aka *vim*
+    - Has CLI modes
+        - Navigation mode
+            - Keyboard letters used for navigation
+        - Insert mode
+            - `i` to enter
+            - Type normally here
+            - `esc` to revert to navigation
+        - Command mode
+            - `:` to enter
+            - Here is where you save, delete, quit, change
+- *nano*
+    - Newer 
+    - Easier learning curve
+    - No modes
+    - Uses `Ctrl` to access tools
+
+#### Variables  
+- Go to [Topic 2 | 2.1 | Lesson 2](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic2.md#lesson-2)  
+    - Refresher on:
+        - Variables
+        - Manipulating variables
+- Tips
+    - Variable names
+        - Only alphanumeric characters or underscores
+        - Case sensitive 
+    - Substitution can also use `{}`
+        - `${username}`
+    - Variables in Bash have *implicit type*
+        - They are considered strings
+        - Makes math functions difficult 
+            - Compared to languages such as C/C++
+        
