@@ -380,4 +380,59 @@ Weight: 4
         - They are considered strings
         - Makes math functions difficult 
             - Compared to languages such as C/C++
-        
+    - `"`
+        - Weak, will still allow substitutions of symbols such as `$`
+    - `'`
+        - Strong, will convert meaningful symbols to plaintext 
+
+##### Special Variables in Bash
+
+| Variable | Description | Usage |
+|----------|-------------|-------|
+| $0 | The name of the script | `echo "This script is called $0"` |
+| $1 - $9 | The first 9 arguments to the script | `echo "First argument: $1"` |
+| ${10} and up | 10th argument and beyond | `echo "Tenth argument: ${10}"` |
+| $# | The number of arguments passed to the script | `echo "Number of arguments: $#"` |
+| $@ | All arguments passed to the script (preserves whitespace and quotes) | `for arg in "$@"; do echo "$arg"; done` |
+| $* | All arguments passed to the script (does not preserve individual quotes) | `echo "All args: $*"` |
+| $? | The exit status of the last command executed | `if [ $? -eq 0 ]; then echo "Success"; fi` |
+| $$ | The process ID of the current script | `echo "PID: $$"` |
+| $! | The process ID of the last background command | `echo "Last background PID: $!"` |
+| $- | The current options set for the shell | `echo "Current shell options: $-"` |
+| $_ | The last argument of the previous command | `echo "Last arg of previous command: $_"` |
+| $IFS | Internal Field Separator | `IFS=':'; echo "IFS is now colon"` |
+| $PATH | Executable search path | `echo "Current PATH: $PATH"` |
+| $HOME | Home directory of the current user | `echo "Home directory: $HOME"` |
+| $USER | Current user name | `echo "Current user: $USER"` |
+| $HOSTNAME | The hostname of the machine | `echo "Hostname: $HOSTNAME"` |
+| $RANDOM | Generates a random integer between 0 and 32767 | `echo "Random number: $RANDOM"` |
+| $LINENO | The current line number in the script | `echo "This is line $LINENO"` |
+
+#### Arguments
+- Reminders
+    - Arguments are words or values that follow a command 
+    - Arguments provide input or instructions to the command
+- Can be passed to the script upon execution
+- Will modify how script behaves 
+
+- Explanation and example
+    - Below I run a script and pass three arguments
+    - The script sets the username value as the third argument using a special variable listed above 
+    - The script outputs the results using the special variable
+
+```
+$! /bin/bash
+# This is a comment 
+
+username=$3
+
+echo "hello $username"
+echo "number of arguments: $#"
+```
+
+```
+$ ./bulli.sh cat dog bull
+hello bull
+number of arguments: 3
+```
+####
