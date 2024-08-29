@@ -467,10 +467,18 @@ number of arguments: 3
         - Use consistent nesting levels
     - Use spaces not tabs to ensure consistent display
     - Keep opening and closing keywords at same indent level
-- Control structures
-    - `if..fi`
-    - `if...elif...then...fi`
-    - There are others not covered in this lesson
+
+| Control Structure | Beginning Keyword | Ending Keyword | Function |
+|-------------------|-------------------|----------------|----------|
+| If statement| `if`  | `fi`     | Conditional execution of commands |
+| Case statement    | `case`| `esac`   | Multi-way branch based on pattern matching |
+| For loop    | `for` | `done`   | Iterate over a list of items |
+| While loop  | `while`     | `done`   | Execute commands while a condition is true |
+| Until loop  | `until`     | `done`   | Execute commands until a condition becomes true |
+| Select loop | `select`    | `done`   | Create a numbered menu for user selection |
+| Function    | `function` or name followed by `()` | `}`| Define a reusable block of code |
+
+
 ```
 #!/bin/bash
 
@@ -501,4 +509,34 @@ number of arguments: 1
 ### Lesson 2
 
 #### Exit Codes
-- 
+- `cat -n script_name.sh`
+    - Use to print line numbers
+    - Helpful for debugging
+
+| Exit Code | Name | Meaning |
+|-----------|------|---------|
+| 0 | Success | The command or script executed successfully |
+| 1 | General error | Catchall for general errors or unspecified failures |
+| 2 | Misuse of shell builtins | Incorrect usage of shell built-in commands |
+| 3-125 | Custom | Available for custom exit codes in scripts |
+| 126 | Command invoked cannot execute | Permission problem or command is not executable |
+| 127 | Command not found | Possible problem with $PATH or a typo |
+| 128 | Invalid exit argument| Exit takes only integer args in the range 0-255 |
+| 128+n | Fatal error signal "n" | Command terminated by signal n |
+| 130 | Script terminated by Ctrl-C | Script terminated by user interrupt |
+| 129 | SIGHUP (1) | Hangup detected |
+| 130 | SIGINT (2) | Interrupt from keyboard (Ctrl+C) |
+| 131 | SIGQUIT (3) | Quit from keyboard |
+| 132 | SIGILL (4) | Illegal instruction |
+| 133 | SIGTRAP (5) | Trace/breakpoint trap |
+| 134 | SIGABRT (6) | Abort signal |
+| 135 | SIGBUS (7) | Bus error |
+| 136 | SIGFPE (8) | Floating point exception |
+| 137 | SIGKILL (9) | Kill signal |
+| 138 | SIGUSR1 (10) | User-defined signal 1 |
+| 139 | SIGSEGV (11) | Invalid memory reference |
+| 140 | SIGUSR2 (12) | User-defined signal 2   |
+| 141 | SIGPIPE (13) | Broken pipe |
+| 142 | SIGALRM (14) | Timer signal |
+| 143 | SIGTERM (15) | Termination signal |
+| 255 | Exit status out of range | Exit takes only integer args in the range 0-255 |
