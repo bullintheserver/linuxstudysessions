@@ -177,6 +177,8 @@ $ nr_files=`wc -l /etc/passwd`
 $ echo $nr_files
 100 /etc/passwd
 ```
+[Back to Topic 3 | 3.3 | Lesson 1 | Variables](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic3.md#variables)
+
 ## 2.2
 Using the Command Line to Get Help  
 Weight: 2
