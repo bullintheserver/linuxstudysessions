@@ -437,25 +437,28 @@ number of arguments: 3
 ```
 #### Conditional Logic in Bash
 ##### Common flags
-- `-eq`: Equal to
-- `-ne`: Not equal to
-- `-lt`: Less than
-- `-le`: Less than or equal to
-- `-gt`: Greater than
-- `-ge`: Greater than or equal to
-- `-z`: String is null (empty)
-- `-n`: String is not null (not empty)
-- `-d`: Directory exists
-- `-e`: File exists
-- `-f`: File exists and is a regular file
-- `-r`: File is readable
-- `-s`: File exists and is not empty
-- `-w`: File is writable
-- `-x`: File is executable
-- `-O`: File is owned by the current user
-- `-G`: File is owned by the current user's group
-- `!`: Negates a test or exit status
-- `==`: Compares strings as true or false
+
+| Flag | Description |
+|------|-------------|
+| `-eq`| Equal to |
+| `-ne`| Not equal to |
+| `-lt`| Less than |
+| `-le`| Less than or equal to |
+| `-gt`| Greater than |
+| `-ge`| Greater than or equal to |
+| `-z` | String is null (empty) |
+| `-n` | String is not null (not empty) |
+| `-d` | Directory exists |
+| `-e` | File exists |
+| `-f` | File exists and is a regular file |
+| `-r` | File is readable |
+| `-s` | File exists and is not empty |
+| `-w` | File is writable |
+| `-x` | File is executable |
+| `-O` | File is owned by the current user |
+| `-G` | File is owned by the current user's group |
+| `!`  | Negates a test or exit status |
+| `==` | Compares strings as true or false |
 
 - Container
     - Logical outer container `if ... fi`
