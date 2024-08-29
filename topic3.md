@@ -435,4 +435,67 @@ $ ./bulli.sh cat dog bull
 hello bull
 number of arguments: 3
 ```
-####
+#### Conditional Logic in Bash
+##### Common flags
+- `-eq`: Equal to
+- `-ne`: Not equal to
+- `-lt`: Less than
+- `-le`: Less than or equal to
+- `-gt`: Greater than
+- `-ge`: Greater than or equal to
+- `-z`: String is null (empty)
+- `-n`: String is not null (not empty)
+- `-d`: Directory exists
+- `-e`: File exists
+- `-f`: File exists and is a regular file
+- `-r`: File is readable
+- `-s`: File exists and is not empty
+- `-w`: File is writable
+- `-x`: File is executable
+- `-O`: File is owned by the current user
+- `-G`: File is owned by the current user's group
+- `!`: Negates a test or exit status
+- `==`: Compares strings as true or false
+
+- Container
+    - Logical outer container `if ... fi`
+    - Test inner container `[]`
+    - Nest conditionals if layered 
+        - Use consistent nesting levels
+    - Use spaces not tabs to ensure consistent display
+    - Keep opening and closing keywords at same indent level
+- Control structures
+    - `if..fi`
+    - `if...elif...then...fi`
+    - There are others not covered in this lesson
+```
+#!/bin/bash
+
+# A simple script to greet a single user.
+
+if [ $# -eq 1 ]
+then
+    username=$1
+
+    echo "hello $username"
+else
+    echo "please enter only one argument"
+fi
+echo "number of arguments: $#"
+```
+
+```
+$ ./bulli.sh cat dog bull
+please enter only one argument
+number of arguments: 3
+```
+
+```
+$ ./bulli.sh bull
+hello bull
+number of arguments: 1
+```
+### Lesson 2
+
+#### Exit Codes
+- 
