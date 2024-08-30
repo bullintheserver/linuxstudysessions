@@ -517,7 +517,7 @@ number of arguments: 1
 |-----------|------|---------|
 | 0 | Success | The command or script executed successfully |
 | 1 | General error | Catchall for general errors or unspecified failures |
-| 2 | Misuse of shell builtins | Incorrect usage of shell built-in commands |
+| 2 | Misuse of shell built-ins | Incorrect usage of shell built-in commands |
 | 3-125 | Custom | Available for custom exit codes in scripts |
 | 126 | Command invoked cannot execute | Permission problem or command is not executable |
 | 127 | Command not found | Possible problem with $PATH or a typo |
@@ -540,3 +540,4 @@ number of arguments: 1
 | 142 | SIGALRM (14) | Timer signal |
 | 143 | SIGTERM (15) | Termination signal |
 | 255 | Exit status out of range | Exit takes only integer args in the range 0-255 |
+
