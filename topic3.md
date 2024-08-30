@@ -509,9 +509,6 @@ number of arguments: 1
 ### Lesson 2
 
 #### Exit Codes
-- `cat -n script_name.sh`
-    - Use to print line numbers
-    - Helpful for debugging
 
 | Exit Code | Name | Meaning |
 |-----------|------|---------|
@@ -541,3 +538,22 @@ number of arguments: 1
 | 143 | SIGTERM (15) | Termination signal |
 | 255 | Exit status out of range | Exit takes only integer args in the range 0-255 |
 
+- Exit codes
+    - Numerical values
+    - Indicator of execution status
+    - Crucial to scripting, automation, error handling
+    - Provides specific error information 
+    - Useful in automated testing and deployment
+    - Useful for debugging 
+    - Facilitates communication between parent/child processes 
+- `cat -n script_name.sh`
+    - Use to print line numbers
+    - Helpful for debugging
+- Setting in scripts
+    - `exit 0 # Success`
+    - `exit 1 # Error`
+    - *!Use at the end of the script!*
+        - Using `exit` ends script
+        - Ignores all after `exit`
+- Checking exit code of last command
+    - `echo $?`
