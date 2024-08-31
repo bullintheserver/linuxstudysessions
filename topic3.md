@@ -478,6 +478,18 @@ number of arguments: 3
 | Function    | `function` or name followed by `()` | `}`| Define a reusable block of code |
 
 
+| Internal Keyword | Usage | Function |
+|---------|-------|----------|
+| in | `for item in list` | Separates loop variable from list in for loops |
+| then | `if [condition]; then` | Marks beginning of code block in if statements |
+| do | `for/while/until ...; do` | Marks beginning of loop body |
+| elif | `elif [condition]; then` | Introduces additional conditions in if statements |
+| else | `else` | Specifies actions when no conditions in if statement are met |
+| break | `break` | Exits a loop prematurely |
+| continue | `continue` | Skips rest of current loop iteration |
+| select | `select var in list` | Generates a menu for user selection |
+
+
 ```
 #!/bin/bash
 
@@ -578,6 +590,7 @@ number of arguments: 1
     - Always choose purpose-driven clear names
     - Avoid conflicting names with important shell variables
         - Can cause overriding 
+
 
 ##### Common loop variables
 - Numeric iterators
