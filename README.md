@@ -39,3 +39,12 @@ Browse pages by topics as layed out in study guide.
 ### 3.2  
 [Searching and Extracting Data from Files](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic3.md#32)
 ### 3.3  
+[Turning Commands into a Script](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic3.md#33)
+
+---
+
+## Topic 4
+
+---
+
+## Topic 5
