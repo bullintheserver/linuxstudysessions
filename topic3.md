@@ -576,6 +576,13 @@ number of arguments: 1
 - Arrays within variables in Bash
     - Can be created with quotes and spaces
     - `FILES="sbin/1stfile sbin/2ndfile sbin/3rdfile"`
+- Shifting
+    - Use `shift` to shift parameters to the left by a specified number of positions 
+        - Without arguments it is defaulted as `shift 1`
+    - `$2` becomes `$1` and so on 
+    - Original `$1` is discarded and is no longer accessible 
+    - Will decrease value of `$#` by number of shifts
+    - Updates `$@`, `$*`
 
 #### *for* Loops and Loop Variables
 
@@ -619,12 +626,71 @@ done
     - Any descriptive name
     - Represents items being iterated 
 
+```
+#!/bin/bash
 
+# a friendly script to greet users
 
+if [ $# -eq 0 ]
+then
+    echo "Please enter at least one user to greet"
+    exit 1
+else
+    echo -n "hello $1"
+    shift
 
+    while [ $# -gt 1 ]; do
+        echo -n ", $1"
+        shift
+    done
 
+    if [ $# -eq 1 ]; then
+        echo ", and $1"
+    else
+        echo "?"
+    fi
 
+    exit 0
+fi
+```
 
+```
+$ ./greeting.sh cat dog horse bull
+hello cat, dog, horse, and bull
+$
+```
 
+##### Using RegEx for Error Checking
+Filtering for only letters example:
+```
+$ echo 4n1ml | grep "^[A-Za-z]*$"
+$ echo $?
+1
+```
 
+```
+#!/bin/bash
+
+# a friendly script to greet users
+
+if [ $# -eq 0 ]
+then
+    echo "Please enter at least one user to greet."
+    exit 1
+else
+    for username in $@
+    do
+        echo $username | grep "^[A-Za-z]*$" > /dev/null
+        if [ $? -eq 1 ]
+        then
+            echo "ERROR: Names must only contains letters."
+            exit 2
+        else
+            echo "Hello $username!"
+        fi
+    done
+    exit 0
+fi
+```
+---
 
