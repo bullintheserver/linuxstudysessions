@@ -134,8 +134,9 @@ I am $USER
 #### Manipulating variables 
 - Set up local variable using `=`
 - Access value using `$`
+    - Tells Bash to expand the variable and use its value
 - Remove variable using `unset` without `$` as it is now an argument
-    - If `$` is used it resolves the variable to it's value instead of affecting the variable name 
+    - If `$` is used it expands the variable to it's value instead of affecting the variable name 
 ```
 $ greeting=hello
 $ echo $greeting

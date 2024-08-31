@@ -365,7 +365,7 @@ Weight: 4
     - No modes
     - Uses `Ctrl` to access tools
 
-#### Variables  
+#### Variables
 - Go to [Topic 2 | 2.1 | Lesson 2](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic2.md#lesson-2)  
     - Refresher on:
         - Variables
@@ -386,7 +386,6 @@ Weight: 4
         - Strong, will convert meaningful symbols to plaintext 
 
 ##### Special Variables in Bash
-
 | Variable | Description | Usage |
 |----------|-------------|-------|
 | $0 | The name of the script | `echo "This script is called $0"` |
@@ -436,8 +435,8 @@ hello bull
 number of arguments: 3
 ```
 #### Conditional Logic in Bash
-##### Common flags
 
+##### Common flags
 | Flag | Description |
 |------|-------------|
 | `-eq`| Equal to |
@@ -509,7 +508,6 @@ number of arguments: 1
 ### Lesson 2
 
 #### Exit Codes
-
 | Exit Code | Name | Meaning |
 |-----------|------|---------|
 | 0 | Success | The command or script executed successfully |
@@ -538,7 +536,7 @@ number of arguments: 1
 | 143 | SIGTERM (15) | Termination signal |
 | 255 | Exit status out of range | Exit takes only integer args in the range 0-255 |
 
-- Exit codes
+- Usage:
     - Numerical values
     - Indicator of execution status
     - Crucial to scripting, automation, error handling
@@ -557,3 +555,63 @@ number of arguments: 1
         - Ignores all after `exit`
 - Checking exit code of last command
     - `echo $?`
+
+#### Multiple Arguments 
+- Array-like special variables
+    - Allows script to operate on entire set of arguments at once
+    - `$@`
+    - `$*`
+- Arrays within variables in Bash
+    - Can be created with quotes and spaces
+    - `FILES="sbin/1stfile sbin/2ndfile sbin/3rdfile"`
+
+#### *for* Loops and Loop Variables
+
+##### Loop variables
+- Control iteration of a loop
+- Changes value with each iteration
+- Conventions
+    - Typically lowercase 
+        - Distinguishes from
+            - Constants
+            - Environmental variables 
+    - Always choose purpose-driven clear names
+    - Avoid conflicting names with important shell variables
+        - Can cause overriding 
+
+##### Common loop variables
+- Numeric iterators
+    - Often named `i`, `j`, `k`
+    - These variables increment numerically
+
+```
+for i in {1..5}
+do
+    echo "Iteration $i"
+done
+```
+
+- File or item iterators
+    - Variables like `file`, `item`, `element`
+    - Represent each item in a list or array
+
+```
+for file in *.txt
+do
+    echo "Processing $file"
+done
+```
+
+- Custom named variables
+    - Any descriptive name
+    - Represents items being iterated 
+
+
+
+
+
+
+
+
+
+
