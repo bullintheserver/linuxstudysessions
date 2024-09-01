@@ -1,5 +1,5 @@
 # theme: jekyll-theme-minimal
-remote_theme: pages-themes/hacker@v0.2.0
+theme: minima
 title: linuxstudysessions
 description: just some linux study notes
 
