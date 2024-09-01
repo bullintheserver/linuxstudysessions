@@ -1,3 +1,8 @@
+---
+title: "Topic 2"
+layout: default
+---
+
 # Topic 2
 Finding Your Way on a Linux System
 

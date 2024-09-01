@@ -1,3 +1,8 @@
+---
+title: "Topic 1"
+layout: default
+---
+
 # Topic 1
 The Linux Community and a Career in Open Source  
 

@@ -1,3 +1,8 @@
+---
+title: "Topic 3"
+layout: default
+---
+
 # Topic 3
 The Power of the Command Line
 

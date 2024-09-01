@@ -1,3 +1,8 @@
+---
+title: "README"
+layout: default
+---
+
 # linuxstudysessions
 Study notes for my Linux Essentials certification journey.  
 Guide follows LPI Essentials Study Guide.  
