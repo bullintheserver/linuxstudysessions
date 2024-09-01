@@ -692,5 +692,25 @@ else
     exit 0
 fi
 ```
+
+```
+#!
+
+# Create a script that will take any number of
+# arguments from the user, and print only those
+# arguments which are numbers greater than 10
+
+for i in $@; do
+    echo $i | grep ^[0-9]*$ > /dev/null
+    if [ $? -eq 0 ]; then
+        if [ $i -gt 10 ]; then
+            echo $i
+        else
+            echo $i > /dev/null
+        fi
+    fi
+done
+exit 0
+```
 ---
 

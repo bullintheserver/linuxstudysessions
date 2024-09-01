@@ -1,9 +1,8 @@
 # Topic 4
-Lorem ipsum odor amet, consectetuer adipiscing elit
+The Linux Operating System  
 
 ## 4.1
-Lorem ipsum odor amet  
-Weight: 0
+Choosing an Operating System
+Weight: 1  
 
-
-### Lorem ipsum 
+### What is an Operating System
