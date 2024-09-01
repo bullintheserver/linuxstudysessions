@@ -124,8 +124,6 @@ I am $USER
 
 ### Lesson 2
 
-[Back to Topic 3 | 3.3 | Lesson 1 | Variables](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic3.md#variables)
-
 #### Variables
 - Pieces of storage for data
     - Such as text or numbers
@@ -206,8 +204,6 @@ $ echo $nr_files
 100 /etc/passwd
 ```
 
-[Back to Topic 3 | 3.3 | Lesson 1 | Variables](https://github.com/bullintheserver/linuxstudysessions/blob/main/topic3.md#variables)  
-*Refresh page if it loads to top of Topic 3 page*  
 
 ## 2.2
 Using the Command Line to Get Help  
