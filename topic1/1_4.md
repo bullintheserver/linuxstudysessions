@@ -14,7 +14,7 @@ layout: default
 The Linux Community and a Career in Open Source  
 
 ## 1.1
-[Linux Evolution and Popular Operating Systems](https://bullintheserver.github.io/linuxstudysessions/topic1/1_1.html) 
+[Linux Evolution and Popular Operating Systems](https://bullintheserver.github.io/linuxstudysessions/topic1/1_1.html)  
 Weight: 2
 
 ## 1.2
@@ -22,7 +22,7 @@ Weight: 2
 Weight: 2  
 
 ## 1.3
-[Open Source Software and Licensing](https://bullintheserver.github.io/linuxstudysessions/topic1/1_3.html)
+[Open Source Software and Licensing](https://bullintheserver.github.io/linuxstudysessions/topic1/1_3.html)  
 Weight: 1  
 
 ## 1.4
