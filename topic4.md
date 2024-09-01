@@ -5,7 +5,8 @@ The Linux Operating System
 Choosing an Operating System
 Weight: 1  
 
-### Operating Systems
+### Choosing a Linux Distribution 
+#### Operating Systems
 - Linux-based OSs
     - Enterprise
     - Consumer grade
@@ -15,7 +16,7 @@ Weight: 1
     - Windows Servers
     - Windows Desktops
 
-### Kernel and Distros
+#### Kernel and Distros
 - Kernel
     - At the core of every distro
     - Manages system resources
@@ -47,9 +48,9 @@ Weight: 1
         - User preferences
         - Hardware configurations
 
-### Types of Distros
+#### Types of Distros
 
-#### Enterprise Grade Linux Distros 
+##### Enterprise Grade Linux Distros 
 - Designed for large org/enterprise hardware
 - Meets higher requirements for stability
 - Distros tend to incl. older reliable releases of kernel/software
@@ -65,7 +66,7 @@ Includes:
 - Ubuntu LTS
     - Long term support versions suited for enterprise
 
-#### Consumer Grade Linux Distros  
+##### Consumer Grade Linux Distros  
 - Meant for SOHO, hobbyist users
 - Likely to be using latest hardware
 - Will need and have latest drivers 
@@ -78,7 +79,7 @@ Includes:
 - Ubuntu non-LTS
 - openSUSE
 
-#### Experimental/Hacker Linux Distributions  
+##### Experimental/Hacker Linux Distributions  
 - Live on cutting edge of technology
 - Contain recent versions
     - Even if they have bugs or untested features
@@ -90,11 +91,45 @@ Includes:
 - Arch
 - Gentoo
 
-#### Conclusion
+##### Conclusion
 - Check https://distrowatch.com/ for more distro options
 - Enterprise hardware
     - Can use both enterprise or consumer distros
 - Consumer hardware
     - Must use consumer distros
 
-### Linux Support Lifecycle
+#### Linux Support Lifecycle
+- Longest support cycle: enterprise
+    - e.g. RHEL has 10 years support
+- Consumer support
+    - Often only community support on forums
+    - Software updates often only 3 releases
+- LTS: Long term support
+    - Some distros have LTS versions
+    - These versions suitable for enterprise
+    - e.g. Ubuntu supplies 5 years support for LTS
+        - Ubuntu distros use date-based version numbers
+        - Formatted YY.MM
+        - e.g. 19.04 was released April 2019
+
+#### Linux as Your Desktop
+- More challenging in enterprise
+    - Desktop support focuses on commercial OS offerings
+    - Large investments into software solutions tie users into specific desktop OSs
+    - Some companies have their own distros
+        - Amazon Linux 2 for example
+            - Used for AWS Cloud but also internally for servers and desktops
+- Easier in SOHO set-ups
+    - Removes need for licensing
+    - Access to full gamut of FLOSS
+    - Abundance of desktop environments
+        - Most common:
+            - Gnome
+            - KDE
+
+#### Using Linux on Servers
+
+
+#### Linux in the Cloud
+
+### Non Linux Operating Systems
