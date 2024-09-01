@@ -29,6 +29,7 @@ Weight: 1
 ## 1.4
 [ICT Skills and Working in Linux](https://bullintheserver.github.io/linuxstudysessions/topic1/1_4.html)  
 Weight: 2  
+
 --- 
 
 ## Topic 2  
