@@ -140,8 +140,63 @@ Includes:
             - KDE
 
 #### Using Linux on Servers
-
+- Linux servers common in enterprise sector
+- Maintained by Linux specialized engineers
+- Users often ignorant of server they connect to
+- Client apps will not differ between Linux and other OSs in the backend
+- OS further masked as more apps are virtualized or containerized within local and remote clouds
 
 #### Linux in the Cloud
+- Exercise your skills by deploying a Linux distro on a public cloud
 
 ### Non Linux Operating Systems
+
+#### Unix
+- Pre Linux
+- Used to be sold along with hardware
+- Several commercial versions still available on the market
+    - AIX
+    - HP-UX
+- Linux highly inspired by Unix
+- BSD (*Berkeley Software Distribution*) family of OSs directly based on Unix
+    - Such as:
+        - FreeBSD
+        - NetBSD
+        - OpenBSD
+- Other popular OSs include:
+    - Irix
+    - Solaris
+
+#### MacOS
+- Previously OS X
+- Dates back to 2001
+- Based heavily on BSD Unix
+- Makes use of Bash CLI shell
+- `uname` works in MacOS as in Linux
+    - `-s` returns OS name
+    - `-r` returns kernel version number
+
+```
+$ uname -s
+Darwin
+```
+
+#### Microsoft Windows
+- Majority of desktops and laptops will be Windows based
+- Proprietary, is not free 
+- OS license is included when purchasing the hardware
+- Wide support throughout hardware and software vendors
+- Many open source applications available for Windows
+- As a server platform:
+    - Allows choice between GUI and CLI-only versions
+- Most of the time the GUI of older serers will be loaded but not used
+- Active Directory Domain Controller type applications will be accessed remotely and not at the server 
+
+--- 
+
+## 4.2
+Understanding Computer Hardware
+Weight: 2  
+
+### Choosing a Linux Distribution 
+#### Operating Systems
