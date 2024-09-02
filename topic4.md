@@ -1,5 +1,5 @@
 ---
-title: "Topic 4"
+title: "Topic 4 (single page)"
 layout: default
 ---
 
