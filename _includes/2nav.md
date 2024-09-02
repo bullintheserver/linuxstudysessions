@@ -1,8 +1,4 @@
 <!-- _includes/2nav.md -->
-**LINKS**
-- [**HOME:** linuxstudysessions](https://bullintheserver.github.io/linuxstudysessions)  
-- [Back to GitHub](https://github.com/bullintheserver/linuxstudysessions)  
-
 ### Topic 2  
 Finding Your Way on a Linux System
 - 2.1: [Command Line Basics](https://bullintheserver.github.io/linuxstudysessions/topic2/2_1.html)  

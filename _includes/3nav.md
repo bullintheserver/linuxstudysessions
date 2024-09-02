@@ -1,8 +1,4 @@
 <!-- _includes/3nav.md -->
-**LINKS**
-- [**HOME:** linuxstudysessions](https://bullintheserver.github.io/linuxstudysessions)  
-- [Back to GitHub](https://github.com/bullintheserver/linuxstudysessions)  
-
 ### Topic 3  
 The Power of the Command Line
 - 3.1: [Archiving Files on the Command Line](https://bullintheserver.github.io/linuxstudysessions/topic3/3_1.html)  

@@ -1,8 +1,4 @@
 <!-- _includes/1nav.md -->
-**LINKS**
-- [**HOME:** linuxstudysessions](https://bullintheserver.github.io/linuxstudysessions)  
-- [Back to GitHub](https://github.com/bullintheserver/linuxstudysessions)  
-
 ### Topic 1
 The Linux Community and a Career in Open Source  
 - 1.1: [Linux Evolution and Popular Operating Systems](https://bullintheserver.github.io/linuxstudysessions/topic1/1_1.html)  

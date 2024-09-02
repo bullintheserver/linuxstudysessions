@@ -1,8 +1,4 @@
 <!-- _includes/5nav.md -->
-**LINKS**
-- [**HOME:** linuxstudysessions](https://bullintheserver.github.io/linuxstudysessions)  
-- [Back to GitHub](https://github.com/bullintheserver/linuxstudysessions)  
-
 ### Topic 5
 Security and File Permissions
 - 5.1: [Basic Security and Identifying User Types](https://bullintheserver.github.io/linuxstudysessions/topic5/5_1.html)  

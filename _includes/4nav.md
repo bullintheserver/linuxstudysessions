@@ -1,8 +1,4 @@
 <!-- _includes/4nav.md -->
-**LINKS**
-- [**HOME:** linuxstudysessions](https://bullintheserver.github.io/linuxstudysessions)  
-- [Back to GitHub](https://github.com/bullintheserver/linuxstudysessions)  
-
 ### Topic 4
 The Linux Operating System
 - 4.1: [Choosing an Operating System](https://bullintheserver.github.io/linuxstudysessions/topic4/4_1.html)  
