@@ -110,4 +110,10 @@ Weight: 2
 [Special Directories and Files](https://bullintheserver.github.io/linuxstudysessions/topic5/5_4.html)  
 Weight: 1
 
+<!-- HTML for Back to Top Button -->
+<a href="#" id="back-to-top" title="Back to top">&uarr; back to top &uarr;</a>
+
+<!-- Link to external JS file -->
+<script src="{{ "/assets/js/back-to-top.js" | relative_url }}"></script>
+        
 ---
