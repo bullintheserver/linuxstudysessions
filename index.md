@@ -9,6 +9,7 @@ Guide follows LPI Essentials Study Guide.
 See Wiki for important links.  
 Browse pages by topics as layed out in study guide.  
 [Back to GitHub](https://github.com/bullintheserver/linuxstudysessions)  
+
 ---
 
 {% include 1nav.md %}
@@ -32,3 +33,5 @@ Browse pages by topics as layed out in study guide.
 ---
 
 {% include bttnav.html %}
+
+---
